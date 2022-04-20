@@ -83,6 +83,76 @@ Based on the part number of the SRAM - uPD431000AGW-70L - it is likely going to 
 Note: While GND at pins #1, 25, 26 appear to be ground plane, the other grounds may
 be signals fed back to the PC-FX (such as "cart inserted"). 
 
+## CPLD bindings on the FX-BMP cart:
+
+Markings on CPLD (QFP-52 package):
+NEC JAPAN
+D65612GC114
+9621EP002
+
+Appears to be 1,000-gate CPLD from NEC's CMOS-6X 1.0-micron Gate Array family
+
+Bus connections:
+
+| Pin | Description |
+|-----|-------------|
+| Pin 1 | Bus Pin 27 (D0) |
+| Pin 2 | Bus Pin 36 |
+| Pin 3 | Bus Pin 42 |
+| Pin 4 | Bus Pin 45 |
+| Pin 5 |  |
+| Pin 6 | Vcc |
+| Pin 7 | GND |
+| Pin 8 |  |
+| Pin 9 | GND |
+| Pin 10 | Bus Pin 49 |
+| Pin 11 | Bus Pin 24 (=A17?) |
+| Pin 12 | Bus Pin 50 |
+| Pin 13 |  |
+| Pin 14 |  |
+| Pin 15 | To SRAM pin 24 /OE |
+| Pin 16 |  |
+| Pin 17 | GND |
+| Pin 18 |  |
+| Pin 19 | GND |
+| Pin 20 |  |
+| Pin 21 | GND |
+| Pin 22 | Vcc |
+| Pin 23 |  |
+| Pin 24 |  |
+| Pin 25 |  |
+| Pin 26 |  |
+| Pin 27 |  |
+| Pin 28 |  |
+| Pin 29 |  |
+| Pin 30 |  |
+| Pin 31 | GND |
+| Pin 32 |  |
+| Pin 33 | GND |
+| Pin 34 | Vcc |
+| Pin 35 |  |
+| Pin 36 |  |
+| Pin 37 |  |
+| Pin 38 |  |
+| Pin 39 |  |
+| Pin 40 |  |
+| Pin 41 |  |
+| Pin 42 |  |
+| Pin 43 |  |
+| Pin 44 |  |
+| Pin 45 | Vcc |
+| Pin 46 |  |
+| Pin 47 |  |
+| Pin 48 | GND |
+| Pin 49 |  |
+| Pin 50 |  |
+| Pin 51 |  |
+| Pin 52 |  |
+
+I/O pins from pin 35 to 52 appear not to be used... (only power)
+
+
+
 ## FX-BMP format
 
 Format at 0x00 offset for 32KB cart:
