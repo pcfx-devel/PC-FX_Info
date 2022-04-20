@@ -83,16 +83,18 @@ Based on the part number of the SRAM - uPD431000AGW-70L - it is likely going to 
 Note: While GND at pins #1, 25, 26 appear to be ground plane, the other grounds may
 be signals fed back to the PC-FX (such as "cart inserted"). 
 
-## CPLD bindings on the FX-BMP cart:
+## CPLD on the FX-BMP cart:
+
+### Chip Information
 
 Markings on CPLD (QFP-52 package):
 NEC JAPAN
 D65612GC114
 9621EP002
 
-Appears to be 1,000-gate CPLD from NEC's CMOS-6X 1.0-micron Gate Array family
+Appears to be 1.2K-gate (~800 usable gates) CPLD from NEC's CMOS-6X 1.0-micron Gate Array family
 
-Bus connections:
+### Bus connections:
 
 | Pin | Description |
 |-----|-------------|
@@ -101,12 +103,12 @@ Bus connections:
 | Pin 3 | Bus Pin 42 |
 | Pin 4 | Bus Pin 45 |
 | Pin 5 |  |
-| Pin 6 | Vcc |
+| Pin 6 | Vdd |
 | Pin 7 | GND |
 | Pin 8 |  |
 | Pin 9 | GND |
 | Pin 10 | Bus Pin 49 |
-| Pin 11 | Bus Pin 24 (=A17?) |
+| Pin 11 | Bus Pin 24 (=A17 ?) |
 | Pin 12 | Bus Pin 50 |
 | Pin 13 |  |
 | Pin 14 |  |
@@ -117,8 +119,8 @@ Bus connections:
 | Pin 19 | GND |
 | Pin 20 |  |
 | Pin 21 | GND |
-| Pin 22 | Vcc |
-| Pin 23 |  |
+| Pin 22 | Vdd |
+| Pin 23 | (voltage sense ?) |
 | Pin 24 |  |
 | Pin 25 |  |
 | Pin 26 |  |
@@ -129,28 +131,39 @@ Bus connections:
 | Pin 31 | GND |
 | Pin 32 |  |
 | Pin 33 | GND |
-| Pin 34 | Vcc |
-| Pin 35 |  |
-| Pin 36 |  |
-| Pin 37 |  |
-| Pin 38 |  |
-| Pin 39 |  |
-| Pin 40 |  |
-| Pin 41 |  |
-| Pin 42 |  |
-| Pin 43 |  |
-| Pin 44 |  |
-| Pin 45 | Vcc |
-| Pin 46 |  |
-| Pin 47 |  |
+| Pin 34 | Vdd |
+| Pin 35 | appears to be NC |
+| Pin 36 | appears to be NC |
+| Pin 37 | appears to be NC |
+| Pin 38 | appears to be NC |
+| Pin 39 | appears to be NC |
+| Pin 40 | appears to be NC |
+| Pin 41 | appears to be NC |
+| Pin 42 | appears to be NC |
+| Pin 43 | appears to be NC |
+| Pin 44 | appears to be NC |
+| Pin 45 | Vdd |
+| Pin 46 | appears to be NC |
+| Pin 47 | appears to be NC |
 | Pin 48 | GND |
-| Pin 49 |  |
-| Pin 50 |  |
-| Pin 51 |  |
-| Pin 52 |  |
+| Pin 49 | appears to be NC |
+| Pin 50 | appears to be NC |
+| Pin 51 | appears to be NC |
+| Pin 52 | appears to be NC |
 
 I/O pins from pin 35 to 52 appear not to be used... (only power)
 
+### Apparent function:
+
+The CPLD appears to have two functions:
+1) To perform address-decoding for the /OE line for the SRAM.
+- It appears to do this based on inputs from bus pins 24, 49, 50 (likely all address lines),
+and pin 45 (likely bus /OE).  It is less likely that bus pins 36 or 42 are invovled, but still
+possible.
+2) To monitor the voltage level of the batteries and report on it back to the PC-FX. This appears
+to be sent via D0, based on some address decoded from the various other bus pins (clearly addresses,
+plus /OE). The singaling approach is not yet clear, nor is the way in which the CPLD receives power
+level data (voltage-controlled oscillator ?  Multi-level comparators ?)
 
 
 ## FX-BMP format
