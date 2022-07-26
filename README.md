@@ -17,6 +17,19 @@ when inserted into PC-FX).  While there is no printing identifying pins 26 throu
 50, I will refer to them as numbered in the same way - the reverse-side of the board
 from "pin 1" will be "pin 26", and the reverse of "pin 25" will be "pin 50".
 
+### Card-Edge Physical Dimensions
+
+The card-edge dimensions are:
+- PC Board thickness = 0.0625" (1.6mm)
+- Width of board = 1.325" (33.65mm)
+- Pin spacing is 0.05" (1.27mm)
+
+A near-match card edge connector is made by TE Connectivity, part 5650719-1 ... but the slot is a bit too short;
+a dremel tool with the right bit can extend the slot by the needed amount (its slot is 1.310"; this would need to
+be extended by about 0.01" on each side, or 0.25mm on each side).
+
+### Electrical Signals
+
 Since a relatively common static RAM was used on the board, many of the electrical
 signals were possible to be decoded.  However, an ASIC was mounted on the board,
 governing many control signals.  As the FX-BMP is battery-backed, and the PC-FX can
