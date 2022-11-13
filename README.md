@@ -67,7 +67,7 @@ which gives the CPLD a "good" or "bad" level, which is delivers back to the host
 | Pin 24 | A18 (to CPLD, pin 11) |
 | Pin 25 | GND |
 | Pin 26 | GND |
-| Pin 27 | D0 |
+| Pin 27 | D0 (to CPLD pin 1) |
 | Pin 28 | D1 |
 | Pin 29 | D2 |
 | Pin 30 | D3 |
@@ -184,6 +184,24 @@ Appears to be 1.2K-gate (~800 usable gates) CPLD from NEC's CMOS-6X 1.0-micron G
 
 I/O pins from pin 35 to 52 appear not to be used... (only power)
 
+### Notes on Internal Configuration
+
+1. The key output from the CPLD (other than the bettery-sense), is the /OE signal.  The /OE signal is triggered
+through the range 0xE8000000 - 0xE9FFFFFF uniformaly.  This is derived by:\
+ - Default value of /OE is high, except if all of the following are true:
+ - /CartSel is low
+ - A26 is low
+ - A25 is low
+ - /OE is low
+
+2. However, since the CPLD also takes A18 and A19 as inputs and has many apparently-unused pins, it appears
+that it could be designed for different chip configurations up to 512KB. These could take the form of:
+ - a possible 512KB RAM configuration, based on 2 x 256KB SRAMs (would need 2 /OE outputs)
+or
+ - a possible 512KB RAM configuration, based on 4 x 128KB SRAMs (would need 4 /OE outptus)
+
+These potential configurations *may already be encoded on the CPLD*; however, we don't know which pins these outputs
+might be present at (if present at all).
 
 ## FX-BMP format
 
