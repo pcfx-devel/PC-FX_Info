@@ -97,8 +97,8 @@ Note: While GND at pins #1, 25, 26 appear to be ground plane, the other grounds 
 be signals fed back to the PC-FX (such as "cart inserted").
 
 Also note that /OE and /WE signals are identifiable for their distinctly shorter durations as compared to
-the regular address lines:\
- - On a write cycle, /WE is ~150ns, whereas address lines are in place for ~270ns\
+the regular address lines:
+ - On a write cycle, /WE is ~150ns, whereas address lines are in place for ~270ns
  - On a read cycle, /OE is ~190ns, and regular address lines are in place for ~410ns
 
 ## CPLD on the FX-BMP cart:
@@ -188,7 +188,7 @@ I/O pins from pin 35 to 52 appear not to be used... (only power)
 ### Notes on Internal Configuration
 
 1. The key output from the CPLD (other than the bettery-sense), is the /OE signal.  The /OE signal is triggered
-through the range 0xE8000000 - 0xE9FFFFFF uniformaly.  This is derived by:\
+through the range 0xE8000000 - 0xE9FFFFFF uniformaly.  This is derived by:
    - Default value of /OE is high, except if all of the following are true:
    - /CartSel is low
    - A26 is low
