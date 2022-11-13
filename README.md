@@ -31,40 +31,40 @@ be extended by about 0.01" on each side, or 0.25mm on each side).
 ### Electrical Signals
 
 Since a relatively common static RAM was used on the board, many of the electrical
-signals were possible to be decoded.  However, an ASIC was mounted on the board,
-governing many control signals.  As the FX-BMP is battery-backed, and the PC-FX can
-detect when the batteries are low, it is not clear whether the ASIC has a memory-mapped
-register for battery level, or whether analog comparators are used.
+signals were possible to be decoded.  However, a CPLD was mounted on the board,
+governing many control signals.  As the FX-BMP is battery-backed, the PC-FX can also
+detect when the battery level is low, as there is an analog comparator circuit on board,
+which gives the CPLD a "good" or "bad" level, which is delivers back to the host system.
 
-It is also not yet clear whether 5V or 3.3V logic is used for the SRAM and other signals.
-Based on the part number of the SRAM - uPD431000AGW-70L - it is likely going to be a 5V bus.
+5V logic is used for the SRAM and other signals, however the power supply may fall short of the
+5V threshold (i.e. 4.5V).
 
 | Pin | Description |
 |-----|-------------|
 | Pin 1 | GND |
-| Pin 2 | A0 |
-| Pin 3 | A1 |
-| Pin 4 | A2 |
-| Pin 5 | A3 |
-| Pin 6 | A4 |
-| Pin 7 | A5 |
-| Pin 8 | A6 |
-| Pin 9 | A7 |
+| Pin 2 | A1 (no A0; data is every second address) |
+| Pin 3 | A2 |
+| Pin 4 | A3 |
+| Pin 5 | A4 |
+| Pin 6 | A5 |
+| Pin 7 | A6 |
+| Pin 8 | A7 |
+| Pin 9 | A8 |
 | Pin 10 | Vdd |
 | Pin 11 | Vdd |
-| Pin 12 | A8 |
-| Pin 13 | A9 |
-| Pin 14 | A10 |
-| Pin 15 | A11 |
-| Pin 16 | A12 |
-| Pin 17 | A13 |
-| Pin 18 | A14 |
+| Pin 12 | A9 |
+| Pin 13 | A10 |
+| Pin 14 | A11 |
+| Pin 15 | A12 |
+| Pin 16 | A13 |
+| Pin 17 | A14 |
+| Pin 18 | A15 |
 | Pin 19 | No Connection |
 | Pin 20 | Vdd |
 | Pin 21 | Vdd |
-| Pin 22 | A15 |
-| Pin 23 | A16 |
-| Pin 24 | to CPLD, pin 11 (=A17 ?) |
+| Pin 22 | A16 |
+| Pin 23 | A17 |
+| Pin 24 | A18 (to CPLD, pin 11) |
 | Pin 25 | GND |
 | Pin 26 | GND |
 | Pin 27 | D0 |
@@ -76,27 +76,45 @@ Based on the part number of the SRAM - uPD431000AGW-70L - it is likely going to 
 | Pin 33 | D6 |
 | Pin 34 | D7 |
 | Pin 35 | GND |
-| Pin 36 | to CPLD, pin 2 |
-| Pin 37 | No Connection |
-| Pin 38 | No Connection |
+| Pin 36 | A19 (to CPLD, pin 2) |
+| Pin 37 | A20 (No Connection inside cart) |
+| Pin 38 | A21 (No Connection inside cart) |
 | Pin 39 | GND |
-| Pin 40 | No Connection |
-| Pin 41 | No Connection |
-| Pin 42 | to CPLD, pin 3 |
+| Pin 40 | A22 (No Connection inside cart) |
+| Pin 41 | A23 (No Connection inside cart) |
+| Pin 42 | A25 (to CPLD, pin 3) |
 | Pin 43 | GND |
 | Pin 44 | GND |
-| Pin 45 | to CPLD, pin 4 |
+| Pin 45 | /OE (to CPLD, pin 4) |
 | Pin 46 | GND |
 | Pin 47 | /WE |
 | Pin 48 | No Connection |
-| Pin 49 | to CPLD, pin 10 |
-| Pin 50 | to CPLD, pin 12 |
+| Pin 49 | /CartSel - low if top 5 bits are '11101', or address starts with '0xE8' (to CPLD, pin 10) |
+| Pin 50 | A26 (to CPLD, pin 12) |
 
 
 Note: While GND at pins #1, 25, 26 appear to be ground plane, the other grounds may
-be signals fed back to the PC-FX (such as "cart inserted"). 
+be signals fed back to the PC-FX (such as "cart inserted").
+
+Also note that /OE and /WE signals are identifiable for their distinctly shorter durations as compared to
+the regular address lines:\
+On a write cycle, /WE is ~150ns, whereas address lines are in place for ~270ns\
+On a read cycle, /OE is ~190ns, and regular address lines are in place for ~410ns
 
 ## CPLD on the FX-BMP cart:
+
+### Functionality
+
+This chip does some address-decode duties, as well as presents "low battery" information onto the bus.
+
+**For address-decode:**\
+0xE8000000 - 0xE9FFFFFF is used for RAM (decode /CartSel, A26, A25 as '0'; only bring /OE low if all are low)\
+0xEA000000 - 0xEBFFFFFF is used for battery status reporting
+
+**For battery-status reporting:**\
+If the battery voltage dips below a specific threshold level, a '0' will be output on data line 0 in the
+battery status reporting range.  In other words, 0xFE states low/bad battery; 0xFF states that battery is OK.
+
 
 ### Chip Information
 
@@ -112,17 +130,17 @@ Appears to be 1.2K-gate (~800 usable gates) CPLD from NEC's CMOS-6X 1.0-micron G
 | Pin | Description |
 |-----|-------------|
 | Pin 1 | Bus Pin 27 (D0) |
-| Pin 2 | Bus Pin 36 |
-| Pin 3 | Bus Pin 42 |
-| Pin 4 | Bus Pin 45 |
+| Pin 2 | Bus Pin 36 (A19) |
+| Pin 3 | Bus Pin 42 (A25) |
+| Pin 4 | Bus Pin 45 (/OE) |
 | Pin 5 |  |
 | Pin 6 | Vdd |
 | Pin 7 | GND |
 | Pin 8 |  |
 | Pin 9 | GND |
-| Pin 10 | Bus Pin 49 |
-| Pin 11 | Bus Pin 24 (=A17 ?) |
-| Pin 12 | Bus Pin 50 |
+| Pin 10 | Bus Pin 49 (/CartSel) |
+| Pin 11 | Bus Pin 24 (A18) |
+| Pin 12 | Bus Pin 50 (A26) |
 | Pin 13 |  |
 | Pin 14 |  |
 | Pin 15 | To SRAM pin 24 /OE |
@@ -165,18 +183,6 @@ Appears to be 1.2K-gate (~800 usable gates) CPLD from NEC's CMOS-6X 1.0-micron G
 | Pin 52 | appears to be NC |
 
 I/O pins from pin 35 to 52 appear not to be used... (only power)
-
-### Apparent function:
-
-The CPLD appears to have two functions:
-1) To perform address-decoding for the /OE line for the SRAM.
-- It appears to do this based on inputs from bus pins 24, 49, 50 (likely all address lines),
-and pin 45 (likely bus /OE).  It is less likely that bus pins 36 or 42 are invovled, but still
-possible.
-2) To monitor the voltage level of the batteries and report on it back to the PC-FX. This appears
-to be sent via D0, based on some address decoded from the various other bus pins (clearly addresses,
-plus /OE). The singaling approach is not yet clear, nor is the way in which the CPLD receives power
-level data (voltage-controlled oscillator ?  Multi-level comparators ?)
 
 
 ## FX-BMP format
