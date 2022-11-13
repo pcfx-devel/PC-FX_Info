@@ -98,8 +98,8 @@ be signals fed back to the PC-FX (such as "cart inserted").
 
 Also note that /OE and /WE signals are identifiable for their distinctly shorter durations as compared to
 the regular address lines:\
-On a write cycle, /WE is ~150ns, whereas address lines are in place for ~270ns\
-On a read cycle, /OE is ~190ns, and regular address lines are in place for ~410ns
+ - On a write cycle, /WE is ~150ns, whereas address lines are in place for ~270ns\
+ - On a read cycle, /OE is ~190ns, and regular address lines are in place for ~410ns
 
 ## CPLD on the FX-BMP cart:
 
@@ -112,8 +112,9 @@ This chip does some address-decode duties, as well as presents "low battery" inf
 0xEA000000 - 0xEBFFFFFF is used for battery status reporting
 
 **For battery-status reporting:**\
-If the battery voltage dips below a specific threshold level, a '0' will be output on data line 0 in the
-battery status reporting range.  In other words, 0xFE states low/bad battery; 0xFF states that battery is OK.
+If the battery voltage dips below a specific threshold level, a '0' will be output on data line 0 (D0) in the
+battery status reporting range.  In other words, reading memory location 0xEA000000 should provide a 0xFE for
+low/bad battery; and 0xFF if the battery is OK.
 
 
 ### Chip Information
@@ -188,17 +189,17 @@ I/O pins from pin 35 to 52 appear not to be used... (only power)
 
 1. The key output from the CPLD (other than the bettery-sense), is the /OE signal.  The /OE signal is triggered
 through the range 0xE8000000 - 0xE9FFFFFF uniformaly.  This is derived by:\
- - Default value of /OE is high, except if all of the following are true:
- - /CartSel is low
- - A26 is low
- - A25 is low
- - /OE is low
+   - Default value of /OE is high, except if all of the following are true:
+   - /CartSel is low
+   - A26 is low
+   - A25 is low
+   - /OE is low
 
 2. However, since the CPLD also takes A18 and A19 as inputs and has many apparently-unused pins, it appears
 that it could be designed for different chip configurations up to 512KB. These could take the form of:
- - a possible 512KB RAM configuration, based on 2 x 256KB SRAMs (would need 2 /OE outputs)
+   - a possible 512KB RAM configuration, based on 2 x 256KB SRAMs (would need 2 /OE outputs)
 or
- - a possible 512KB RAM configuration, based on 4 x 128KB SRAMs (would need 4 /OE outptus)
+   - a possible 512KB RAM configuration, based on 4 x 128KB SRAMs (would need 4 /OE outptus)
 
 These potential configurations *may already be encoded on the CPLD*; however, we don't know which pins these outputs
 might be present at (if present at all).
