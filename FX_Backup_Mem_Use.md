@@ -6,7 +6,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 ### Table of values
 
 | Game Name | Filename on Cart | Reported Size |
-|-----------|------------------|---------------|
+|-----------|------------------|--------------:|
 | Aa! Megami-sama! |  |  |
 | Akazukin Cha-Cha |  |  |
 | Aruberea no Otome |  |  |
