@@ -21,7 +21,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Anime Freak FX: Vol. 6 |  |  |
 | Arubarea no Otome | (narrow katakana) a ru ha " re a  | 128 |
 | Battle Heat |  |  |
-| Blue Breaker |  |  |
+| Blue Breaker | BLUE_BREAKER | 128 |
 | Blue Chicago Blues  |  |  |
 | Boundary Gate |  |  |
 | Can Can Bunny Extra DX |  |  |
