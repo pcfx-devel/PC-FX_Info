@@ -10,9 +10,9 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Aa! Megami-sama! | AH!_MY_GODDESS | 1280 |
 | Akazukin Cha-Cha |  |  |
 | All Japan Female Pro Wrestle - Queen of Queens | QueenOfQueens | 768 |
-| Angelique Special |  |  |
-| Angelique Special 2 |  |  |
-| Angelique: Tenkuu no Requiem |  |  |
+| Angelique Special | ANGELIQUE_SPECIAL | 5248 |
+| Angelique Special 2 | ANGELIQUE_2 | 15616 |
+| Angelique Tenkuu no Requiem | ANGELIQUE_REQUIEM | 7936 |
 | Anime Freak FX: Vol. 1 |  |  |
 | Anime Freak FX: Vol. 2 |  |  |
 | Anime Freak FX: Vol. 3 |  |  |
@@ -44,4 +44,34 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Kokuu Hyouryuu Nirgends |  |  |
 | Last Imperial Prince |  |  |
 | Lunatic Dawn FX |  |  |
+| Mahjong Goku Tenjiku |  |  |
+| Makeruna! Makendou Z |  |  |
+| Megami Paradise II |  |  |
+| Minimum Nanonic |  |  |
+| Miraculum - The Last Revelation |  |  |
+| Neo Generation II FX |  |  |
+| Ojousama Sousamou |  |  |
+| Pachiokun FX |  |  |
+| PCE Fan Special CD-ROM Vol. 2 |  |  |
+| PCE Fan Special CD-ROM Vol. 3 |  |  |
+| Pia Carrot He Youkosou |  |  |
+| Power Dolls FX |  |  |
+| Return to Zork |  |  |
+| Ruruli Ra Rura |  |  |
+| Shanghai - The Great Wall |  |  |
+| Sparkling Feather |  |  |
+| Super PCE Fan Deluxe Special CD-ROM Vol 1 |  |  |
+| Super PCE Fan Deluxe Special CD-ROM Vol 2 |  |  |
+| Super Power League FX |  |  |
+| Super Real Mahjong P V FX |  |  |
+| Team Innocent |  |  |
+| Tekipaki Working Love |  |  |
+| Tenchi Muyo FX |  |  |
+| Tengai Makyou Karakuri Kakutouden |  |  |
+| Tokimeki Card Paradise |  |  |
+| Tonari no Princess no Rolfee |  |  |
+| Tyoushin Keiki Zeroigar |  |  |
+| Voice Paradise |  |  |
+| Wakusei-koukitai Little Cats |  |  |
+| Zoku Hatsukoi Monogatari |  |  |
 
