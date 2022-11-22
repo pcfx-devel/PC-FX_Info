@@ -22,17 +22,17 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Arubarea no Otome | (narrow katakana) a ru ha " re a  | 128 |
 | Battle Heat |  |  |
 | Blue Breaker | BLUE_BREAKER | 128 |
-| Blue Chicago Blues  |  |  |
-| Boundary Gate |  |  |
-| Can Can Bunny Extra DX |  |  |
-| Chip Can Kick |  |  |
-| Comic Road |  |  |
-| Cutey Honey FX |  |  |
+| Blue Chicago Blues | BCBFX | 128 |
+| Boundary Gate | B-Gate | 2176 |
+| Can Can Bunny Extra DX | CANCAN_BUNNY_DX | 1792 |
+| Chip Can Kick | chip(hiragana chan)kick! | 640 |
+| Comic Road | COMIC_RD | 128 |
+| Cutey Honey FX | CUTEY_HONEY | 1280 |
 | Deep Blue Fleet |  |  |
-| Der Langrisser FX |  |  |
+| Der Langrisser FX | LANGFX | 7424 |
 | Doukyusei 2 |  |  |
 | Dragon Knight 4 | DragonKnight4 | 12416 |
-| Farland Story FX |  |  |
+| Farland Story FX | FARLAND_STORY_FX | 5632 |
 | Fire Woman Matoi-gumi |  |  |
 | First Kiss Monogatari |  |  |
 | Fushigi no Kuni no Angelique |  |  |
@@ -42,11 +42,11 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Graduation Real |  |  |
 | Kishin Doujin Zenki |  |  |
 | Kokuu Hyouryuu Nirgends |  |  |
-| Last Imperial Prince |  |  |
-| Lunatic Dawn FX |  |  |
+| Last Imperial Prince | LIP | 4352 |
+| Lunatic Dawn FX | LUNAFX | 13952 |
 | Mahjong Goku Tenjiku |  |  |
 | Makeruna! Makendou Z |  |  |
-| Megami Paradise II |  |  |
+| Megami Paradise II | (kanji) MegamiTengokuII (II glyph) | 8576 |
 | Minimum Nanonic |  |  |
 | Miraculum - The Last Revelation |  |  |
 | Neo Generation II FX |  |  |
@@ -64,13 +64,13 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Super PCE Fan Deluxe Special CD-ROM Vol 2 |  |  |
 | Super Power League FX |  |  |
 | Super Real Mahjong P V FX |  |  |
-| Team Innocent |  |  |
+| Team Innocent | TEAM_INNOCENT | 5760 |
 | Tekipaki Working Love |  |  |
-| Tenchi Muyo FX |  |  |
+| Tenchi Muyo FX | (kanji) Tenchi Muyo (dot) hakua (chalk) | 7168 |
 | Tengai Makyou Karakuri Kakutouden |  |  |
 | Tokimeki Card Paradise |  |  |
 | Tonari no Princess no Rolfee |  |  |
-| Tyoushin Keiki Zeroigar |  |  |
+| Tyoushin Keiki Zeroigar | Zeroigar | 384 |
 | Voice Paradise |  |  |
 | Wakusei-koukitai Little Cats |  |  |
 | Zoku Hatsukoi Monogatari |  |  |
