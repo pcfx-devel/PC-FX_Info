@@ -19,7 +19,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Anime Freak FX: Vol. 4 |  |  |
 | Anime Freak FX: Vol. 5 |  |  |
 | Anime Freak FX: Vol. 6 |  |  |
-| Arubarea no Otome | (U+FF71)(U+FF99)(U+FF8A)"(U+FF9A)(U+FF71) | 128 |
+| Arubarea no Otome | &#65393;&#65433;&#65418;"&#65434;&#65393; | 128 |
 | Battle Heat |  |  |
 | Blue Breaker | BLUE_BREAKER | 128 |
 | Blue Chicago Blues | BCBFX | 128 |
