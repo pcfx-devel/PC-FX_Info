@@ -25,7 +25,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Blue Chicago Blues | BCBFX | 128 |
 | Boundary Gate | B-Gate | 2176 |
 | Can Can Bunny Extra DX | CANCAN_BUNNY_DX | 1792 |
-| Chip Can Kick | chip&#12385;&#12419;&#12435;kick! | 640 |
+| Chip Chan Kick | chip&#12385;&#12419;&#12435;kick! | 640 |
 | Comic Road | COMIC_RD | 128 |
 | Cutey Honey FX | CUTEY_HONEY | 1280 |
 | Deep Blue Fleet |  |  |
@@ -46,7 +46,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Lunatic Dawn FX | LUNAFX | 13952 |
 | Mahjong Goku Tenjiku |  |  |
 | Makeruna! Makendou Z |  |  |
-| Megami Paradise II | (kanji) MegamiTengokuII (II glyph) | 8576 |
+| Megami Paradise II | &#22899;&#31070;&#22825;&#22269;&#8545; | 8576 |
 | Minimum Nanonic |  |  |
 | Miraculum - The Last Revelation |  |  |
 | Neo Generation II FX |  |  |
