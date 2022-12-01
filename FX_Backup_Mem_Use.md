@@ -25,7 +25,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Blue Chicago Blues | BCBFX | 128 |
 | Boundary Gate | B-Gate | 2176 |
 | Can Can Bunny Extra DX | CANCAN_BUNNY_DX | 1792 |
-| Chip Can Kick | chip(hiragana chan)kick! | 640 |
+| Chip Can Kick | chip&#12385;&#12419;&#12435;kick! | 640 |
 | Comic Road | COMIC_RD | 128 |
 | Cutey Honey FX | CUTEY_HONEY | 1280 |
 | Deep Blue Fleet |  |  |
