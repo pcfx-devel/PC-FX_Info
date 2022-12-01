@@ -8,18 +8,18 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Game Name | Filename on Cart | Reported Size |
 |-----------|------------------|--------------:|
 | Aa! Megami-sama! | AH!_MY_GODDESS | 1280 |
-| Akazukin Cha-Cha |  |  |
+| Akazukin Cha-Cha | (none ?) |  |
 | All Japan Female Pro Wrestle - Queen of Queens | QueenOfQueens | 768 |
 | Angelique Special | ANGELIQUE_SPECIAL | 5248 |
 | Angelique Special 2 | ANGELIQUE_2 | 15616 |
 | Angelique Tenkuu no Requiem | ANGELIQUE_REQUIEM | 7936 |
-| Anime Freak FX: Vol. 1 |  |  |
-| Anime Freak FX: Vol. 2 |  |  |
-| Anime Freak FX: Vol. 3 |  |  |
+| Anime Freak FX: Vol. 1 | (none) |  |
+| Anime Freak FX: Vol. 2 | (none) |  |
+| Anime Freak FX: Vol. 3 | (none) |  |
 | Anime Freak FX: Vol. 4 |  |  |
 | Anime Freak FX: Vol. 5 |  |  |
 | Anime Freak FX: Vol. 6 |  |  |
-| Arubarea no Otome | (narrow katakana) a ru ha " re a  | 128 |
+| Arubarea no Otome | (U+FF71)(U+FF99)(U+FF8A)"(U+FF9A)(U+FF71) | 128 |
 | Battle Heat |  |  |
 | Blue Breaker | BLUE_BREAKER | 128 |
 | Blue Chicago Blues | BCBFX | 128 |
