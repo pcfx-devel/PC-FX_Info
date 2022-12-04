@@ -16,11 +16,11 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Anime Freak FX: Vol. 1 | (none) |  |
 | Anime Freak FX: Vol. 2 | (none) |  |
 | Anime Freak FX: Vol. 3 | (none) |  |
-| Anime Freak FX: Vol. 4 |  |  |
-| Anime Freak FX: Vol. 5 |  |  |
-| Anime Freak FX: Vol. 6 |  |  |
+| Anime Freak FX: Vol. 4 | (none) |  |
+| Anime Freak FX: Vol. 5 | (none) |  |
+| Anime Freak FX: Vol. 6 | (none) |  |
 | Arubarea no Otome | &#65393;&#65433;&#65418;"&#65434;&#65393; | 128 |
-| Battle Heat |  |  |
+| Battle Heat | (none ?) |  |
 | Blue Breaker | BLUE_BREAKER | 128 |
 | Blue Chicago Blues | BCBFX | 128 |
 | Boundary Gate | B-Gate | 2176 |
