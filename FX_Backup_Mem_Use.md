@@ -37,7 +37,7 @@ end up in a scenario where the player could not progress further in a game).
 | Doukyusei 2 | &#21516;&#32026;&#29983;&#65298; | 128 |
 | Dragon Knight 4 | DragonKnight4 | 12416 |
 | Farland Story FX | FARLAND_STORY_FX | 5632 |
-| Fire Woman Matoi-gumi |  |  |
+| Fire Woman Matoi-gumi | &#65420;&#65383;&#65394;&#65393;&#65392;&#65395;&#65392;&#65423;&#65437;&#32399;&#32068; | 512 |
 | First Kiss Monogatari |  |  |
 | Fushigi no Kuni no Angelique |  |  |
 | Ginga Ojousama Densetsu Yuna FX |  |  |
