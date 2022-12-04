@@ -34,7 +34,7 @@ end up in a scenario where the player could not progress further in a game).
 | Cutey Honey FX | CUTEY_HONEY | 1280 |
 | Deep Blue Fleet | &#32058;&#30887;&#12398;&#33382;&#38538; | 3840 |
 | Der Langrisser FX | LANGFX | 7424 |
-| Doukyusei 2 |  |  |
+| Doukyusei 2 | &#21516;&#32026;&#29983;&#65298; | 128 |
 | Dragon Knight 4 | DragonKnight4 | 12416 |
 | Farland Story FX | FARLAND_STORY_FX | 5632 |
 | Fire Woman Matoi-gumi |  |  |
