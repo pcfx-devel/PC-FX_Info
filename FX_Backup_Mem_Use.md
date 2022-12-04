@@ -2,6 +2,10 @@
 
 A table of how much backup memory is reportedly in use for various PC-FX games
 
+Not all of these games have been played very deeply; the assumption is made that a game will
+initially allocate the full amount of memory it will ever need (since doing otherwise could
+end up in a scenario where the player could not progress further in a game).
+
 
 ### Table of values
 
@@ -28,7 +32,7 @@ A table of how much backup memory is reportedly in use for various PC-FX games
 | Chip Chan Kick | chip&#12385;&#12419;&#12435;kick! | 640 |
 | Comic Road | COMIC_RD | 128 |
 | Cutey Honey FX | CUTEY_HONEY | 1280 |
-| Deep Blue Fleet |  |  |
+| Deep Blue Fleet | &#32058;&#30887;&#12398;&#33382;&#38538; | 3840 |
 | Der Langrisser FX | LANGFX | 7424 |
 | Doukyusei 2 |  |  |
 | Dragon Knight 4 | DragonKnight4 | 12416 |
