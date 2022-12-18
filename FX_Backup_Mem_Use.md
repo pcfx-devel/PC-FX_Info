@@ -39,12 +39,12 @@ end up in a scenario where the player could not progress further in a game).
 | Farland Story FX | FARLAND_STORY_FX | 5632 |
 | Fire Woman Matoi-gumi | &#65420;&#65383;&#65394;&#65393;&#65392;&#65395;&#65392;&#65423;&#65437;&#32399;&#32068; | 512 |
 | First Kiss Monogatari | &#12501;&#12449;&#12540;&#12473;&#12488;Kiss&#10032; | 1536 |
-| Fushigi no Kuni no Angelique |  |  |
-| Ginga Ojousama Densetsu Yuna FX |  |  |
-| Ginga Ojousama Densetsu Yuna FX Special |  |  |
-| Gokuraku Arena |  |  |
-| Graduation Real |  |  |
-| Kishin Doujin Zenki |  |  |
+| Fushigi no Kuni no Angelique | WONDER_ANGELIQUE | 1536 |
+| Ginga Ojousama Densetsu Yuna FX | YUNAFX | 128 |
+| Ginga Ojousama Densetsu Yuna FX Special | (none) |  |
+| Gokuraku Arena | (none) |  |
+| Graduation Real | &#21330;&#26989;&#65330;FX | 2176 |
+| Kishin Doujin Zenki | &#39740;&#31070;&#31461;&#23376;ZENKI | 256 |
 | Kokuu Hyouryuu Nirgends |  |  |
 | Last Imperial Prince | LIP | 4352 |
 | Lunatic Dawn FX | LUNAFX | 13952 |
