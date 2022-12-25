@@ -45,7 +45,7 @@ end up in a scenario where the player could not progress further in a game).
 | Gokuraku Arena | (none) |  |
 | Graduation Real | &#21330;&#26989;&#65330;FX | 2176 |
 | Kishin Doujin Zenki | &#39740;&#31070;&#31461;&#23376;ZENKI | 256 |
-| Kokuu Hyouryuu Nirgends |  |  |
+| Kokuu Hyouryuu Nirgends | &#12491;&#12523;&#12466;&#12531;&#12484; | 1280 |
 | Last Imperial Prince | LIP | 4352 |
 | Lunatic Dawn FX | LUNAFX | 13952 |
 | Mahjong Goku Tenjiku |  |  |
