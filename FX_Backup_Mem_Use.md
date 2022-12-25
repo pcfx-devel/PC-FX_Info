@@ -48,7 +48,7 @@ end up in a scenario where the player could not progress further in a game).
 | Kokuu Hyouryuu Nirgends | &#12491;&#12523;&#12466;&#12531;&#12484; | 1280 |
 | Last Imperial Prince | LIP | 4352 |
 | Lunatic Dawn FX | LUNAFX | 13952 |
-| Mahjong Goku Tenjiku |  |  |
+| Mahjong Goku Tenjiku | &#40635;&#38592;&#24735;&#31354;&#12288;&#22825;&#31842; | 4352 |
 | Makeruna! Makendou Z |  |  |
 | Megami Paradise II | &#22899;&#31070;&#22825;&#22269;&#8545; | 8576 |
 | Minimum Nanonic |  |  |
