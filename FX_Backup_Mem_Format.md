@@ -65,6 +65,7 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 | 0x001A | "Number of Heads"(*1) | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 0x001C | "Number of Hidden Sectors Preceding this FAT Volume"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0x0020 | "Total Logical Sectors"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0x0024 - 0x007F | Appears to be unused | 0x5C | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) |
 
 Notes:\
 (*1) - These are the descriptions as per DOS 3.31 BPB - but it is not clear whether they have any such purpose here.
