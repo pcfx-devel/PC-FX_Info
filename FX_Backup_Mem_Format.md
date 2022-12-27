@@ -65,7 +65,7 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 As this is a FAT-12 filesystem, each block (sector, in most cases) is represented by 12 bits, or one-and-a-half bytes.
 
 Within memory, a 3-byte sequence with nybbles as so:\
-```01 23 45```
+```01 23 45```\
 Will mean that the first block's FAT value will be 0x301, and the second one's value will be 0x452
 
 **Actual Values of FAT entries**
