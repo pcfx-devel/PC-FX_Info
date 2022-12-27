@@ -107,7 +107,7 @@ However, the PC-FX allows the use of SJIS and longer filenames (up to 16 charact
 | 0x16 | "Last Modified Time" (*2) | 2 |  |
 | 0x18 | "Last Modified Date" (*2) | 2 |  |
 | 0x1A | First used cluster number | 2 |  |
-| 0x1C | "File Size in Bytes" (*3) | 4 |  |
+| 0x1C | "File Size in Bytes" (*3) | 4 | 0x00 |
 
 **NOTE:**\
 (*1) - If the first character is 0xE5, the entry has been deleted and is no longer relevant.  If the first character ix 0x00, it marks the end of the list.
