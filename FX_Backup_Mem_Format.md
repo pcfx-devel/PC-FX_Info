@@ -72,9 +72,10 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 
 ### FAT Region
 
-As this is a FAT-12 filesystem, each block (sector, in most cases) is represented by 12 bits, or one-and-a-half bytes.
+As this is a FAT-12 filesystem, each block (sector, in most cases) is represented by 12 bits, or one-and-a-half bytes, meaning that two FAT entries
+consumes 3 consecutive bytes; entries are aligned as such within the block.
 
-Within memory, a 3-byte sequence with nybbles as so:\
+As such, a 3-byte FAT sequence with nybbles as so:\
 ```01 23 45```\
 Will mean that the first block's FAT value will be 0x301, and the second one's value will be 0x452
 
@@ -89,6 +90,7 @@ Will mean that the first block's FAT value will be 0x301, and the second one's v
 **NOTE:**\
 The first 2 FAT entries are reserved, and contain special values: 0xFF9, and 0xFFF. The first value after these refers to the first block in
 the Data Area.
+
 
 ### Root Directory Region
 
@@ -106,8 +108,6 @@ However, the PC-FX allows the use of SJIS and longer filenames (up to 16 charact
 | 0x18 | "Last Modified Date" (*2) | 2 |  |
 | 0x1A | First used cluster number | 2 |  |
 | 0x1C | "File Size in Bytes" (*3) | 4 |  |
-
-
 
 **NOTE:**\
 (*1) - If the first character is 0xE5, the entry has been deleted and is no longer relevant.  If the first character ix 0x00, it marks the end of the list.
