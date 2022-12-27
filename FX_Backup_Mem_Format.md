@@ -36,11 +36,15 @@ be shown in the tables below.
 ### Boot Sector and BIOS Parameter Block
 
 There is only one Boot Sector in a PC-FX save area.
+The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 
-| Byte Offset | Use | Size (Bytes) | Values: 32KB (Internal) | FX-BMP: 128KB | 256KB | 512KB | 1MB | 2MB |
-|-----------|-------|-------------:|------:|--------:|--------:|-------:|------:|------:|
-| 0x0000 | ??? | 3 | 0x24 0x8A 0xDF | Same | Same | Same | Same | Same |
-| 0x0003 | OEM Name | 8 | 'PCFXSram' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' |
+| Byte Offset | Use | Size (Bytes) | Values: 32KB (Internal) | FX-BMP: 128KB | 256KB | 512KB | 1MB | 2MB | 4MB | 8MB |
+|-----------|-------|-------------:|------:|--------:|--------:|-------:|------:|------:|------:|------:|
+| 0x0000 | ??? | 3 | 0x24 0x8A 0xDF | Same | Same | Same | Same | Same | Same | Same |
+| 0x0003 | OEM Name | 8 | 'PCFXSram' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' | 'PCFXCard' |
+| 0x000B | Bytes per sector | 2 | 0x0080 (128) | 0x0080 (128) | 0x0080 (128) | 0x0080 (128) | 0x0080 (128) | 0x0080 (128) | 0x0080 (128) | 0x0080 (128) |
+| 0x000D | Sectors per cluster | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 4 | 8 |
+| 0x000E | Number of Reserved Sectors | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 ### FAT Region
 
