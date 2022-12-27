@@ -47,7 +47,9 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 | 0x000E | Number of Reserved Sectors | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 0x0010 | Number of File Allocation Tables | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 0x0011 | Maximum number of Root Directory entries | 2 | 0x40 (64) | 0xFC (252) | 0x100 (256) | 0x100 (256) | 0x104 (260) | 0x100 (256) | 0xFC (252) | 0xFC (252) |
-| 0x0013 | Total number of Sectors | 2 | 0x40 (64) | 0x100 (256) | 0x400 (1024) |  |  |  |  |  |
+| 0x0013 | Total number of Sectors | 2 | 0x40 (64) | 0x100 (256) | 0x200 (512) | 0x400 (1024) | 0x800 (2048) | 0x1000 (4096) |  |  |
+| 0x0015 | Media Descriptor | 1 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 |
+| 0x0016 | Sectors per File Allocation Table | 2 | 0x03 (3) | 0x0C (12) | 0x17 (23) | 0x2F (47) | 0x7E (126) | 0x7F (127) | 0x80 (128) | 0x80 (128) |
 
 ### FAT Region
 
