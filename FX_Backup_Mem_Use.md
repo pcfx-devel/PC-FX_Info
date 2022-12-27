@@ -49,7 +49,7 @@ end up in a scenario where the player could not progress further in a game).
 | Last Imperial Prince | LIP | 4352 |
 | Lunatic Dawn FX | LUNAFX | 13952 |
 | Mahjong Goku Tenjiku | &#40635;&#38592;&#24735;&#31354;&#12288;&#22825;&#31842; | 4352 |
-| Makeruna! Makendou Z |  |  |
+| Makeruna! Makendou Z | &#12414;&#12369;&#12435;&#12393;&#65338; | 6912 |
 | Megami Paradise II | &#22899;&#31070;&#22825;&#22269;&#8545; | 8576 |
 | Minimum Nanonic |  |  |
 | Miraculum - The Last Revelation |  |  |
