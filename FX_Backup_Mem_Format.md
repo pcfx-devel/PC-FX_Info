@@ -67,7 +67,7 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 | 0x0020 | "Total Logical Sectors"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0x0024 - 0x007F | Appears to be unused | 0x5C | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) |
 
-Notes:\
+**NOTE:**\
 (*1) - These are the descriptions as per DOS 3.31 BPB - but it is not clear whether they have any such purpose here.
 
 ### FAT Region
@@ -86,6 +86,30 @@ Will mean that the first block's FAT value will be 0x301, and the second one's v
 | 0x002 - 0xFEF | Data cluster - points to the next cluster in the sequence |
 | 0xFF0 - 0xFFF | Treat as end-of-chain / end-of-file, or marked as unavailable for other reasons |
 
+**NOTE:**\
+The first 2 FAT entries are reserved, and contain special values: 0xFF9, and 0xFFF. The first value after these refers to the first block in
+the Data Area.
+
 ### Root Directory Region
 
- 
+Each directory entry is a fixed-size 0x20 (32) bytes in length, and filename are based on MS-DOS type 8.3 filenames (filename + extension).\
+However, the PC-FX allows the use of SJIS and longer filenames (up to 16 characters) by repurposing part of the directory entry data (see below).
+
+| Byte Offset | Use | Size (Bytes) | Values |
+|-----------|-------|-------------:|------|
+| 0x00 | First 8 characters of filename (*1) | 8 | |
+| 0x08 | File Extension | 3 | Appears to be a code based on developer company |
+| 0x0B | File attribute | 1 | 0x10 if subdirectory |
+| 0x0C | Final (up to) 8 characters of filename | 8 | |
+| 0x14 | (unused) | 2 | 0x00 |
+| 0x16 | "Last Modified Time" (*2) | 2 |  |
+| 0x18 | "Last Modified Date" (*2) | 2 |  |
+| 0x1A | First used cluster number | 2 |  |
+| 0x1C | "File Size in Bytes" (*3) | 4 |  |
+
+
+
+**NOTE:**\
+(*1) - If the first character is 0xE5, the entry has been deleted and is no longer relevant.  If the first character ix 0x00, it marks the end of the list.
+(*2) - These are the descriptions as per DOS 3.31 FAT - but it is not clear whether they have any such purpose here. These are mostly unused, but are used by "J.B Harold Blue Chicago Blues"
+(*3) - This is the descriptions as per DOS 3.31 FAT - but it appears to be unused here, appearing as zeroes in all reviewed cases.
