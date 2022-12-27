@@ -110,6 +110,6 @@ However, the PC-FX allows the use of SJIS and longer filenames (up to 16 charact
 | 0x1C | "File Size in Bytes" (*3) | 4 | 0x00 |
 
 **NOTE:**\
-(*1) - If the first character is 0xE5, the entry has been deleted and is no longer relevant.  If the first character ix 0x00, it marks the end of the list.
-(*2) - These are the descriptions as per DOS 3.31 FAT - but it is not clear whether they have any such purpose here. These are mostly unused, but are used by "J.B Harold Blue Chicago Blues"
+(*1) - If the first character is 0xE5, the entry has been deleted and is no longer relevant.  If the first character ix 0x00, it marks the end of the list.\
+(*2) - These are the descriptions as per DOS 3.31 FAT - but it is not clear whether they have any such purpose here. These are mostly unused, but are used by "J.B Harold Blue Chicago Blues"\
 (*3) - This is the descriptions as per DOS 3.31 FAT - but it appears to be unused here, appearing as zeroes in all reviewed cases.
