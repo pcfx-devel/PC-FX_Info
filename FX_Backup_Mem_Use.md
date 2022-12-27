@@ -70,7 +70,7 @@ end up in a scenario where the player could not progress further in a game).
 | Super Real Mahjong P V FX |  |  |
 | Team Innocent | TEAM_INNOCENT | 5760 |
 | Tekipaki Working Love |  |  |
-| Tenchi Muyo FX | (kanji) Tenchi Muyo (dot) hakua (chalk) | 7168 |
+| Tenchi Muyo FX | &#22825;&#22320;&#28961;&#29992;&#12539;&#30333;&#20124; | 7168 |
 | Tengai Makyou Karakuri Kakutouden |  |  |
 | Tokimeki Card Paradise |  |  |
 | Tonari no Princess no Rolfee |  |  |
