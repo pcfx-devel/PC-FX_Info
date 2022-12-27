@@ -61,6 +61,13 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 | 0x0013 | Total number of Sectors | 2 | 0x40 (64) | 0x100 (256) | 0x200 (512) | 0x400 (1024) | 0x800 (2048) |  |  |  |
 | 0x0015 | Media Descriptor | 1 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 |
 | 0x0016 | Sectors per File Allocation Table | 2 | 0x03 (3) | 0x0C (12) | 0x17 (23) | 0x2F (47) | 0x7E (126) | 0x7F (127) | 0x80 (128) | 0x80 (128) |
+| 0x0018 | "Sectors per Track"(*1) | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 0x001A | "Number of Heads"(*1) | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 0x001C | "Number of Hidden Sectors Preceding this FAT Volume"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0x0020 | "Total Logical Sectors"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+Notes:\
+(*1) - These are the descriptions as per DOS 3.31 BPB - but it is not clear whether they have any such purpose here.
 
 ### FAT Region
 
