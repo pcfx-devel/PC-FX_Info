@@ -31,7 +31,7 @@ these as different files within the same game-specific folder.
 | Type | Values: 32KB (Internal) | FX-BMP: 128KB | 256KB | 512KB | 1MB | 2MB | 4MB | 8MB |
 |-----------|-------------:|--------:|--------:|-------:|------:|------:|------:|------:|
 | FAT Offset | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 |
-| FAT Table Entries | 254 | 1022 | 1960 | 4008 | 8062 | 8126 | 8190 | 8190 |
+| FAT Table Entries | 236 | 948 | 1960 | 3984 | 8000 | 8096 | 8144 | 8168 |
 | Root DIR Offset | 0x0200 | 0x0680 | 0x0C80 | 0x1800 | 0x3F80 | 0x4000 | 0x4080 | 0x4080 |
 | Root DIR Entries | 64 | 252 | 256 | 256 | 260 | 256 | 252 | 252 |
 | Data Offset | 0x0A00 | 0x2600 | 0x2C00 | 0x3800 | 0x6000 | 0x6000 | 0x6000 | 0x6000 |
