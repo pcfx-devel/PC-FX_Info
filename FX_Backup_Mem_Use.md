@@ -58,7 +58,7 @@ end up in a scenario where the player could not progress further in a game).
 | Pachiokun FX |  |  |
 | PCE Fan Special CD-ROM Vol. 2 |  |  |
 | PCE Fan Special CD-ROM Vol. 3 |  |  |
-| Pia Carrot He Youkosou |  |  |
+| Pia Carrot He Youkosou | &#65328;&#65353;&#65345;&#12461;&#12515;&#12525;&#12483;&#12488; | 1280 |
 | Power Dolls FX |  |  |
 | Return to Zork |  |  |
 | Ruruli Ra Rura |  |  |
