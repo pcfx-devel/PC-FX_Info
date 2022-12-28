@@ -51,8 +51,8 @@ end up in a scenario where the player could not progress further in a game).
 | Mahjong Goku Tenjiku | &#40635;&#38592;&#24735;&#31354;&#12288;&#22825;&#31842; | 4352 |
 | Makeruna! Makendou Z | &#12414;&#12369;&#12435;&#12393;&#65338; | 6912 |
 | Megami Paradise II | &#22899;&#31070;&#22825;&#22269;&#8545; | 8576 |
-| Minimum Nanonic |  |  |
-| Miraculum - The Last Revelation |  |  |
+| Minimum Nanonic | &#12415;&#12395;&#12414;&#12416; | 256 |
+| Miraculum - The Last Revelation | MIRACULUM | 1920 |
 | Neo Generation II FX |  |  |
 | Ojousama Sousamou |  |  |
 | Pachiokun FX |  |  |
