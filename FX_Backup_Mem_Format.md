@@ -4,8 +4,11 @@ An overview of the internal format of the backup memory storage areas on the PC-
 
 ## Overview
 
-The overall storage format of the backup memory area is FAT-12.  There are many variations of this
+The overall storage format of the backup memory area is FAT.  There are many variations of this
 format, so in the following sections, this will be specified in more detail.
+
+Notably, FAT-12 is in use for storage areas of 512KB and smaller, whereas FAT-16 is in use for
+storage areas of 1MB or larger.
 
 The high-level breakdown of the FAT filesystem includes the following elements:
  1. The Boot Sector (or reserved sectors), which includes an area called the BPB (BIOS Parameter Block),
@@ -31,6 +34,7 @@ these as different files within the same game-specific folder.
 | Type | Values: 32KB (Internal) | FX-BMP: 128KB | 256KB | 512KB | 1MB | 2MB | 4MB | 8MB |
 |-----------|-------------:|--------:|--------:|-------:|------:|------:|------:|------:|
 | FAT Offset | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 | 0x0080 |
+| FAT Type | FAT-12 | FAT-12 | FAT-12 | FAT-12 | FAT-16 | FAT-16 | FAT-16 | FAT-16 |
 | FAT Table Entries | 236 | 948 | 1960 | 3984 | 8000 | 8096 | 8144 | 8168 |
 | Root DIR Offset | 0x0200 | 0x0680 | 0x0C80 | 0x1800 | 0x3F80 | 0x4000 | 0x4080 | 0x4080 |
 | Root DIR Entries | 64 | 252 | 256 | 256 | 260 | 256 | 252 | 252 |
@@ -58,7 +62,7 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 | 0x000E | Number of Reserved Sectors | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 0x0010 | Number of File Allocation Tables | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 0x0011 | Maximum number of Root Directory entries | 2 | 0x40 (64) | 0xFC (252) | 0x100 (256) | 0x100 (256) | 0x104 (260) | 0x100 (256) | 0xFC (252) | 0xFC (252) |
-| 0x0013 | Total number of Sectors | 2 | 0x40 (64) | 0x100 (256) | 0x200 (512) | 0x400 (1024) | 0x800 (2048) |  |  |  |
+| 0x0013 | Total number of Sectors | 2 | 0x100 (256) | 0x400 (1024) | 0x800 (2048) | 0x1000 (4096) | 0x2000 (8192) | 0x4000 (16384) | 0x8000 (32768) | 0x10000 (65536) |
 | 0x0015 | Media Descriptor | 1 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 | 0xF9 |
 | 0x0016 | Sectors per File Allocation Table | 2 | 0x03 (3) | 0x0C (12) | 0x17 (23) | 0x2F (47) | 0x7E (126) | 0x7F (127) | 0x80 (128) | 0x80 (128) |
 | 0x0018 | "Sectors per Track"(*1) | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
