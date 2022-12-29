@@ -2,9 +2,10 @@
 
 A table of how much backup memory is reportedly in use for various PC-FX games
 
-Not all of these games have been played very deeply; the assumption is made that a game will
-initially allocate the full amount of memory it will ever need (since doing otherwise could
-end up in a scenario where the player could not progress further in a game).
+Not all of these games have been played very deeply; the numbers below represent a 'minimum'
+or 'normal' save for a game where possible.  Games which allow for multiple save slots may
+require more memory if multiple slots are used (only one slot has been put to use in each
+of the examples below).
 
 
 ### Table of values
@@ -53,7 +54,7 @@ end up in a scenario where the player could not progress further in a game).
 | Megami Paradise II | &#22899;&#31070;&#22825;&#22269;&#8545; | 8576 |
 | Minimum Nanonic | &#12415;&#12395;&#12414;&#12416; | 256 |
 | Miraculum - The Last Revelation | MIRACULUM | 1920 |
-| Neo Generation II FX |  |  |
+| Neo Generation II FX | SEIKA2FX | 2688 |
 | Ojousama Sousamou |  |  |
 | Pachiokun FX |  |  |
 | PCE Fan Special CD-ROM Vol. 2 |  |  |
