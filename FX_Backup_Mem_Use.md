@@ -55,16 +55,16 @@ of the examples below).
 | Minimum Nanonic | &#12415;&#12395;&#12414;&#12416; | 256 |
 | Miraculum - The Last Revelation | MIRACULUM | 1920 |
 | Neo Generation II FX | SEIKA2FX | 2688 |
-| Ojousama Sousamou |  |  |
-| Pachiokun FX |  |  |
+| Ojousama Sousamou | OJO_FX | 384 |
+| Pachiokun FX | PACHIO_01 | 128 |
 | PCE Fan Special CD-ROM Vol. 2 |  |  |
 | PCE Fan Special CD-ROM Vol. 3 |  |  |
 | Pia Carrot He Youkosou | &#65328;&#65353;&#65345;&#12461;&#12515;&#12525;&#12483;&#12488; | 1280 |
-| Power Dolls FX |  |  |
-| Return to Zork |  |  |
-| Ruruli Ra Rura |  |  |
-| Shanghai - The Great Wall |  |  |
-| Sparkling Feather |  |  |
+| Power Dolls FX | POWER_DoLLS_FX | 3584 |
+| Return to Zork | RETURN_TO_ZORK | 1280 |
+| Ruruli Ra Rura | (none ?) |  |
+| Shanghai - The Great Wall | (none ?) |  |
+| Sparkling Feather | SPF | 1280 |
 | Super PCE Fan Deluxe Special CD-ROM Vol 1 |  |  |
 | Super PCE Fan Deluxe Special CD-ROM Vol 2 |  |  |
 | Super Power League FX |  |  |
