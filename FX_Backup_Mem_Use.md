@@ -70,13 +70,13 @@ of the examples below).
 | Super Power League FX | S_POWER_LEAGUE_FX | 128 |
 | Super Real Mahjong P V FX | S_REAL_MAHJONG_P5 | 256 |
 | Team Innocent | TEAM_INNOCENT | 5760 |
-| Tekipaki Working Love |  |  |
+| Tekipaki Working Love | TKPK_FX | 1024 |
 | Tenchi Muyo FX | &#22825;&#22320;&#28961;&#29992;&#12539;&#30333;&#20124; | 7168 |
-| Tengai Makyou Karakuri Kakutouden |  |  |
-| Tokimeki Card Paradise |  |  |
-| Tonari no Princess no Rolfee |  |  |
+| Tengai Makyou Karakuri Kakutouden | (none ?) |  |
+| Tokimeki Card Paradise | (none ?) |  |
+| Tonari no Princess no Rolfee | Rolfee | 512 |
 | Tyoushin Keiki Zeroigar | Zeroigar | 384 |
-| Voice Paradise |  |  |
-| Wakusei-koukitai Little Cats |  |  |
+| Voice Paradise | VOICE_PARADISE | 1664 |
+| Wakusei-koukitai Little Cats | LC | 7552 |
 | Zoku Hatsukoi Monogatari |  |  |
 
