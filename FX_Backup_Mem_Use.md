@@ -67,8 +67,8 @@ of the examples below).
 | Sparkling Feather | SPF | 1280 |
 | Super PCE Fan Deluxe Special CD-ROM Vol 1 |  |  |
 | Super PCE Fan Deluxe Special CD-ROM Vol 2 |  |  |
-| Super Power League FX |  |  |
-| Super Real Mahjong P V FX |  |  |
+| Super Power League FX | S_POWER_LEAGUE_FX | 128 |
+| Super Real Mahjong P V FX | S_REAL_MAHJONG_P5 | 256 |
 | Team Innocent | TEAM_INNOCENT | 5760 |
 | Tekipaki Working Love |  |  |
 | Tenchi Muyo FX | &#22825;&#22320;&#28961;&#29992;&#12539;&#30333;&#20124; | 7168 |
