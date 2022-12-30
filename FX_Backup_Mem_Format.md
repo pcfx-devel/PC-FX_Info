@@ -103,10 +103,10 @@ However, the PC-FX allows the use of SJIS and longer filenames (up to 16 charact
 
 | Byte Offset | Use | Size (Bytes) | Values |
 |-----------|-------|-------------:|------|
-| 0x00 | First 8 characters of filename (*1)\ Space-padded if short | 8 | |
+| 0x00 | First 8 characters of filename (*1); Space-padded if short | 8 | |
 | 0x08 | File Extension | 3 | Appears to be a code based on developer company |
 | 0x0B | File attribute | 1 | 0x10 if subdirectory |
-| 0x0C | Final (up to) 9 characters of filename\ Zero-terminated if short | 9 | |
+| 0x0C | Final (up to) 9 characters of filename; Zero-terminated if short | 9 | |
 | 0x15 | Zero-terminator | 1 | 0x00 |
 | 0x16 | "Last Modified Time" (*2) | 2 |  |
 | 0x18 | "Last Modified Date" (*2) | 2 |  |
