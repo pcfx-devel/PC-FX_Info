@@ -57,16 +57,16 @@ of the examples below).
 | Neo Generation II FX | SEIKA2FX | 2688 |
 | Ojousama Sousamou | OJO_FX | 384 |
 | Pachiokun FX | PACHIO_01 | 128 |
-| PCE Fan Special CD-ROM Vol. 2 |  |  |
-| PCE Fan Special CD-ROM Vol. 3 |  |  |
+| PCE Fan Special CD-ROM Vol. 2 | (none) |  |
+| PCE Fan Special CD-ROM Vol. 3 | (none) |  |
 | Pia Carrot He Youkosou | &#65328;&#65353;&#65345;&#12461;&#12515;&#12525;&#12483;&#12488; | 1280 |
 | Power Dolls FX | POWER_DoLLS_FX | 3584 |
 | Return to Zork | RETURN_TO_ZORK | 1280 |
 | Ruruli Ra Rura | (none ?) |  |
 | Shanghai - The Great Wall | (none ?) |  |
 | Sparkling Feather | SPF | 1280 |
-| Super PCE Fan Deluxe Special CD-ROM Vol 1 |  |  |
-| Super PCE Fan Deluxe Special CD-ROM Vol 2 |  |  |
+| Super PCE Fan Deluxe Special CD-ROM Vol 1 | (none) |  |
+| Super PCE Fan Deluxe Special CD-ROM Vol 2 | (none) |  |
 | Super Power League FX | S_POWER_LEAGUE_FX | 128 |
 | Super Real Mahjong P V FX | S_REAL_MAHJONG_P5 | 256 |
 | Team Innocent | TEAM_INNOCENT | 5760 |
@@ -78,5 +78,5 @@ of the examples below).
 | Tyoushin Keiki Zeroigar | Zeroigar | 384 |
 | Voice Paradise | VOICE_PARADISE | 1664 |
 | Wakusei-koukitai Little Cats | LC | 7552 |
-| Zoku Hatsukoi Monogatari |  |  |
+| Zoku Hatsukoi Monogatari | HATSUKOI | 768 |
 
