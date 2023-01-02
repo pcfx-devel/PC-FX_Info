@@ -29,6 +29,18 @@ the game, or it may be a subdirectory which in turn may hold multiple files, eac
 information about saved games. Most games which allow for multiple different save games will save
 these as different files within the same game-specific folder.
 
+### Re-Formatting
+
+Note that the boot sector below has specific values which indicate overall size of the FX-BMP unit;
+although the format process normally detects the size of the module, it will NOT resize on a reformat,
+so be careful in certain situations !
+
+For example, if you restore a 128KB image onto a 512KB-capable BMP device and later try to reformat it,
+the original boot sector entries will remain, and the unit will continue to appear to be a 128KB device.
+In such a case, you will need to erase the boot sector (i.e. load 0x00's or seomthing similar) into the
+boot sector, and then erase it.
+
+
 ### Layout Overview for Different Size Memories
 
 | Type | Values: 32KB (Internal) | FX-BMP: 128KB | 256KB | 512KB | 1MB | 2MB | 4MB | 8MB |
