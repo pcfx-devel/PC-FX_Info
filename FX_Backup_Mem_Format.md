@@ -81,7 +81,9 @@ The BIOS Parameter Block starts at offset 0x0B in the Boot Sector.
 | 0x001A | "Number of Heads"(*1) | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 0x001C | "Number of Hidden Sectors Preceding this FAT Volume"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0x0020 | "Total Logical Sectors"(*1) | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 0x0024 - 0x007F | Appears to be unused | 0x5C | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) |
+| 0x0024 - 0x0027 | Appears to be unused | 4 | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) |
+| 0x0028 - 0x003F | Boot information | 0x18 | (not eligible) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) |
+| 0x0040 - 0x007F | Appears to be unused | 0x40 | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) | (uninitialized) |
 
 **NOTE:**\
 (*1) - These are the descriptions as per DOS 3.31 BPB - but it is not clear whether they have any such purpose here.
@@ -129,3 +131,27 @@ However, the PC-FX allows the use of SJIS and longer filenames (up to 16 charact
 (*1) - If the first character is 0xE5, the entry has been deleted and is no longer relevant.  Entries may exist for '.' and '..' (directory pointers).  If the first character ix 0x00, it marks the end of the list.\
 (*2) - These are the descriptions as per DOS 3.31 FAT - but it is not clear whether they have any such purpose here. These are mostly unused, but are used by "J.B Harold Blue Chicago Blues"\
 (*3) - This is the descriptions as per DOS 3.31 FAT - but it appears to be unused here, appearing as zeroes in all reviewed cases.
+
+
+## Bootable Carts
+
+For a cart to be bootable, the PC-FX checks for a key word, and if found, it copies data from the cartridge into main memory, and
+executes it.  Code will not run directly from the FX-BMP due to the addressing arrangements/bus width.
+
+Internal memory cannot be booted from, and the PC-FXGA doesn't support booting from backup.
+
+When auto-boot is in place, the PC-FX boot cycle displays the splash screen, and goes directly into the cartridge boot code instead
+of entering the menu screen.  This eliminates any sort of boot choices.
+
+Note that cartridge offset address is relative to the start of the FX-BMP's chip memory.  So, a value of 0x1000 is chip-memory
+address offset of 0x1000, and will be at 0xE8002000 in system memory.\
+All numeric values are expressed as 'word' values.
+
+| Byte Offset | Use | Size (Bytes) |
+|-----------|-------|-------------:|
+| 0x28 | Key string for boot: "PCFXBoot" | 8 |
+| 0x30 | Program start location on card (byte offset) | 4 |
+| 0x34 | System memory target address (usually 0x8000) | 4 |
+| 0x38 | Transfer size (counted in bytes) | 4 |
+| 0x3C | Execution address after transfer (usually 0x8000) | 4 |
+
