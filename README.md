@@ -32,6 +32,7 @@ to the hardware and software.
 
 ## Upgrading a FX-BMP from 128KB to 512KB
 
-Instructions on how to upgrade a  FX-BMP cartridge to 512KB can be found here:
-[Upgrade Instructions](FX-BMP_Upgrade.md)
+Instructions on how to upgrade a PC-FX's internal save game memory from
+SRAM (backed by supercapacitor) to FRAM (non-volatile):
+[Upgrade Instructions](Internal_FRAM_Upgrade.md)
 
