@@ -34,7 +34,7 @@ This system is complicated to disassemble and reassemble, so don't start unless 
 that you can finish the job.
 
 Only 1 part is required for the upgrade:
- - 1 FRAM chip FM18W08-SG (or -SGTR) (This can be bought at Mouser Electronics, as part number 913-AS6C4008-55SIN for roughly $13)
+ - 1 FRAM chip FM18W08-SG (or -SGTR) (This can be bought at Mouser Electronics, as part number 877-FM18W08-SG for roughly $13US)
 
 **STEP 1: Backup Contents**
 
