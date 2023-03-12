@@ -8,6 +8,13 @@ The daughterboard is involved in the control of the CDROM device, the transfer o
 the production of audio based on the output from the CDROM.  The capacitors on this board can be very important
 for these reasons.
 
+I understand that there may be multiple versions of this daughterboard; however, the image at
+Wikimedia commons matched my own board, so I annotated that image.
+
+The original image for the daughterboard was taken from Wikimedia Commons, here:
+[Wikimedia Image](https://commons.wikimedia.org/wiki/File:NEC-PC-FX-Daughterboard-Flat.jpg)
+
+
 ![PC-FX Daughterboard](images/NEC-PC-FX-Daughterboard-Capacitors.jpg)
 
 
