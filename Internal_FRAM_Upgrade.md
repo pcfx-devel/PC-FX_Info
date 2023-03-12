@@ -37,6 +37,7 @@ Only 1 part is required for the upgrade:
  - 1 FRAM chip FM18W08-SG (or -SGTR) (This can be bought at Mouser Electronics, as part number 913-AS6C4008-55SIN for roughly $13)
 
 **STEP 1: Backup Contents**
+
 Since this process will remove the actual chip holding any of your savegames, you should backup any
 important information before you start.  You can copy game saves from the internal storage to a FX-BMP
 in order to preserve them.
@@ -45,6 +46,7 @@ Or, if you don't care about any files on your system (perhaps you were motivated
 you just lost your important savegames...), you can just proceed with the modification.
 
 **STEP 2: Open Case and Get Motherboard**
+
 I'm not going to explain the whole disassembly process; simply follow the directions in the iFixit Teardown
 document until you have the motherboard removed, and continue following the directions below.
 
