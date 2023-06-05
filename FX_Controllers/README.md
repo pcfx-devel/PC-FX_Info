@@ -24,18 +24,86 @@ interpret the remainder of the data sent via the port.
 
 ### Joypad
 
+The joypad is a fairly standard 6-button joypad from the time, but with a unique feature:
+Two slide switches ('A' and 'B') whose position can be read by the host machine.
+
+The joypad is identified by code 15 (0xF) in the top four bits of the data word returned at the data port.
+Electrically, this is bit pattern 0000, but internally at the data port, the bit pattern is 1111.
+
+The description of all of the bits is as follows:
+
+| Bit # | 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 |
+|-------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|       | 1  | 1  | 1  | 1  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  |
+
+| Bit # | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|-------|----|----|----|----|----|----|---|---|---|---|---|---|---|---|---|---|
+|       | 0  | SW2 | 0 | SW1 | LEFT | DOWN | RIGHT | UP | Run | Sel | VI | V | IV | III | II | I |
+
+
 ### Mouse
 
+The mouse is a fairly-standard (for 1994) 2-button mouse with a cord and a ball which needs periodic cleaning.
+
+The mouse is identified by code 13 (0xD) in the top four bits of the data word returned at the data port.
+Electrically, this is bit pattern 0010, but internally at the data port, the bit pattern is 1101.
+
+The X and Y values are repesneted as 8-bit signed numbers:
+ - Values -127 though -1 are represented by 0x81 through 0xFF.
+ - Values 1 through 127 are represented by 0x01 through 0x7F
+ - 0x00 is used for no movement, and 0x80 is undefined
+
+Horizontally, Left is negative, and Right is positive.
+Vertically, Up is negative, and Down is positive.
+
+
+| Bit # | 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 |
+|-------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|       | 1  | 1  | 0  | 1  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | Left Btn | Right Btn |
+
+
+| Bit # | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|-------|----|----|----|----|----|----|---|---|---|---|---|---|---|---|---|---|
+|       | X7 | X6 | X5 | X4 | X3 | X2 | X1 | X0 | Y7 | Y6 | Y5 | Y4 | Y3 | Y2 | Y1 | Y0 |
+
+
 ### Multitap
+
+The multitap was a peripheral which was never sold at retail, despite being designed, and having clear
+specifications in the developers manuals.
+
+In the event that a multi-tap is present, a sequence of 5 joyport scans should have the multi-tap
+identify itself as the last possible device in the list. For example, if the multi-tap could only
+support 2 devices, those two devices would appear at scans #1 and #2, with the multi-tap self-identifying
+on the third scan. The multi-tap was defined as supporting up to 4 devices, which means the maximum-sized
+multi-tap would self-identify on scan #5.
+
+The multitap is identified by code 14 (0xE) in the top four bits of the data word returned at the data port.
+Electrically, this is bit pattern 0001, but internally at the data port, the bit pattern is 1110.
+
+| Bit # | 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 |
+|-------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|       | 1  | 1  | 1  | 0  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  |
+
+
+| Bit # | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|-------|----|----|----|----|----|----|---|---|---|---|---|---|---|---|---|---|
+|       | -  | -  | -  | -  | -  | -  | - | - | - | - | - | - | - | - | - | - |
 
 
 ## Controller Pinouts
 
 The electrical signals available at the ports are as follows:
+(Both console-side and controller-cable are shown to prevent ambiguity)
+
+
 
 ## Hardware Signalling
 
+
 ## Reading and Writing in Software
+
+### I/O Ports
 
 ## Bugs and Memoranda
 
@@ -61,7 +129,9 @@ issue was fixed.
 
 Special Thanks to the following people for their contributions to this knowledgebase:
 
- - Jacques Gagnon for [his initial breakdown of signalling](https://hackaday.io/project/170365-blueretro/log/191237-pc-fx-interface) for the BlueRetro project
+ - Jacques Gagnon for
+[his initial breakdown of signalling](https://hackaday.io/project/170365-blueretro/log/191237-pc-fx-interface)
+for the BlueRetro project
  - Martin Wendt for the groundwork on the [pcfx_uploader](https://github.com/enthusi/pcfx_uploader)
  - Alex Marshall (trap15) for the initial version of liberis
  - John Brandwood for his work maintaining the
