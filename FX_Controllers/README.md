@@ -103,18 +103,18 @@ The electrical signals available at the ports are as follows:
 
 In testing the fxuploader, there were two behaviours which could be called "errata":
 
- 1) When the direction of data changes from inbound (the PC-FX receives data) to
+ 1. When the direction of data changes from inbound (the PC-FX receives data) to
 outbound (the PC-FX sends data), occasionally the lower halfword of the outbound data
 is incorrect. In fact, it repeats the last inbound lower halfword.
-   - We did not find any way to detect or prevent this issue, so the approach taken
+    - We did not find any way to detect or prevent this issue, so the approach taken
 was for the first word sent to be dummy data, to be ignored by the receiver.
 
- 2) On older hardware, inbound data scans (PC-FX receives data, such as from a joypad)
+ 2. On older hardware, inbound data scans (PC-FX receives data, such as from a joypad)
 may actually not trigger a scan. In such cases, reading the status register for transition
 to "scan complete" will never succeed.
-   - In fxloader, this showed as a 'hang'. The solution was to time out of the check
+    - In fxloader, this showed as a 'hang'. The solution was to time out of the check
 status loop, and re-trigger a scan.
-   - This appears to be specific to some older hardware, as it was not reproducible on
+    - This appears to be specific to some older hardware, as it was not reproducible on
 a newer-manufactured system. It is not clear when during the system's lifetime this
 issue was fixed.
 
