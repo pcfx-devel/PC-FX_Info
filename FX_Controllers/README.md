@@ -96,6 +96,8 @@ Electrically, this is bit pattern 0001, but internally at the data port, the bit
 The electrical signals available at the ports are as follows:
 (Both console-side and controller-cable are shown to prevent ambiguity)
 
+<img src="https://github.com/pcfx-devel/PC-FX_Info/blob/main/FX_Controllers/images/console_port.jpg" width="366" height="400">
+<img src="https://github.com/pcfx-devel/PC-FX_Info/blob/main/FX_Controllers/images/joypad_connector.jpg" width="366" height="400">
 
 
 ## Hardware Signalling
