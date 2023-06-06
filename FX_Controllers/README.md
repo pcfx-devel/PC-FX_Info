@@ -36,7 +36,7 @@ The description of all of the bits is as follows:
 |:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |       | 1  | 1  | 1  | 1  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  | -  |
 | **Bit #** | **15** | **14** | **13** | **12** | **11** | **10** | **9** | **8** | **7** | **6** | **5** | **4** | **3** | **2** | **1** | **0** |
-|       | 0  | SW2 | 0 | SW1 | Lf | Dn | Rt | Up | Run | Sel | VI | V | IV | III | II | I |
+|       | 0  | SW2 | 0 | SW1 | Lft | Dn | Rt | Up | Run | Sel | VI | V | IV | III | II | I |
 
 
 ### Mouse
@@ -49,7 +49,8 @@ Electrically, this is bit pattern ``0010``, but internally at the data port, the
 The X and Y values are repesneted as 8-bit signed numbers:
  - Values -127 though -1 are represented by 0x81 through 0xFF.
  - Values 1 through 127 are represented by 0x01 through 0x7F
- - 0x00 is used for no movement, and 0x80 is undefined
+ - 0x00 is used for no movement
+ - 0x80 is undefined
 
 Horizontally, Left is negative, and Right is positive.
 Vertically, Up is negative, and Down is positive.
