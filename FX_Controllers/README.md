@@ -28,7 +28,7 @@ The joypad is a fairly standard 6-button joypad from the time, but with a unique
 Two slide switches ('A' and 'B') whose position can be read by the host machine.
 
 The joypad is identified by code 15 (0xF) in the top four bits of the data word returned at the data port.
-Electrically, this is bit pattern 0000, but internally at the data port, the bit pattern is 1111.
+Electrically, this is bit pattern ``0000``, but internally at the data port, the bit pattern is ``1111``.
 
 The description of all of the bits is as follows:
 
@@ -44,7 +44,7 @@ The description of all of the bits is as follows:
 The mouse is a fairly-standard (for 1994) 2-button mouse with a cord and a ball which needs periodic cleaning.
 
 The mouse is identified by code 13 (0xD) in the top four bits of the data word returned at the data port.
-Electrically, this is bit pattern 0010, but internally at the data port, the bit pattern is 1101.
+Electrically, this is bit pattern ``0010``, but internally at the data port, the bit pattern is ``1101``.
 
 The X and Y values are repesneted as 8-bit signed numbers:
  - Values -127 though -1 are represented by 0x81 through 0xFF.
@@ -74,7 +74,7 @@ on the third scan. The multi-tap was defined as supporting up to 4 devices, whic
 multi-tap would self-identify on scan #5.
 
 The multitap is identified by code 14 (0xE) in the top four bits of the data word returned at the data port.
-Electrically, this is bit pattern 0001, but internally at the data port, the bit pattern is 1110.
+Electrically, this is bit pattern ``0001``, but internally at the data port, the bit pattern is ``1110``.
 
 | Bit # | 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 |
 |-------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
