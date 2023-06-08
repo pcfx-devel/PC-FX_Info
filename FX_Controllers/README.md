@@ -258,3 +258,4 @@ for the BlueRetro project
  - John Brandwood for his work maintaining the
 [V810 gcc cross-compiler](https://github.com/jbrandwood/v810-gcc) and
 [tools](https://github.com/jbrandwood/pcfxtools) to make all of this possible.
+ - Retrostuff/rosewood for significant help in testing on different machines
