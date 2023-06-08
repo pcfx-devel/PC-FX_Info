@@ -145,7 +145,7 @@ The status port is read in order to determine scanning status.\
 The control port (same address as the status port) is written to, in order to trigger a scan.
 As the joyport can perform bidirectional I/O, the data port is also read/write.
 
-### I/O Ports
+### I/O Port Addresses
 
 | Port | Port Address | Memory Address |
 |:----:|:------------:|:--------------:|
@@ -158,7 +158,7 @@ As the joyport can perform bidirectional I/O, the data port is also read/write.
 | Port 1 Data (Low) | 0x000000C0 | 0x800000C0 |
 | Port 1 Data (High) | 0x000000C2 | 0x800000C2 |
 
-#### Control Port (When Written)
+### Control Port (When Written)
 
 | Bit # | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 |:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -177,11 +177,11 @@ As the joyport can perform bidirectional I/O, the data port is also read/write.
 1: Initiate Transfer\
 0: Do Not Start Transfer (Do Not Use)
 
-#### Status Port (When Read)
+### Status Port (When Read)
 
 | Bit # | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 |:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|       | -  | -  | -  | -  | -  | -  | - | - | - | - | - | - | KOEND | KOIOS | KOMOD | KOTRG |
+| Purpose | -  | -  | -  | -  | -  | -  | - | - | - | - | - | - | KOEND | KOIOS | KOMOD | KOTRG |
 | Initial Value | -  | -  | -  | -  | -  | -  | - | - | - | - | - | - | 0 | 1 | 1 | 0 |
 
 **KOEND** - Transfer End State\
@@ -201,7 +201,7 @@ As the joyport can perform bidirectional I/O, the data port is also read/write.
 0: Transfer Complete - Note that KOEND should be read in order to reset
 
 
-#### Data Port
+### Data Port
 
 The data port (low) and data port (high) are described by the developer documents as being two separate 16-bit ports.
 While it may be possible to combine them into a single 32-bit read or write, this appears to be unsupported, and may
