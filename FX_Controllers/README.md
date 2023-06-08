@@ -6,9 +6,9 @@ Information about the PC-FX controllers
 
  1. [Overview](#overview)
  2. [Types of Devices](#types-of-devices)
-   1. [Joypad](#joypad)
-   2. [Mouse](#mouse)
-   3. [Multitap](#multitap)
+    1. [Joypad](#joypad)
+    2. [Mouse](#mouse)
+    3. [Multitap](#multitap)
 
 ## Overview
 
