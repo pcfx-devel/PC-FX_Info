@@ -123,13 +123,17 @@ When a 'scan' (data transfer) takes place, the following sequence occurs:
   2. The LATCH line descends from it normal HIGH level to LOW for roughly 3 microseconds, returning to HIGH, to indicate "start of scan".
      - If CLK transitions for a cycle while LATCH is low, this indicates that the multitap joypad counter is to be reset, and the first
 joypad is to return its data in this scan.
-     - Actual data is only transferred when LATCH has returned to HIGH
-  3. Following LATCH returning HIGH, CLK cycles for 32 cycles at roughly 3 microseconds per cycle, sending/requesting data synchronously
-with the CLK signal.
-     - inbound data from peripheral should be set when CLK is HIGH - including immediately as LATCH returns to HIGH - to be read by the
-PC-FX on transition to LOW
-     - outbound data from PC-FX is also set when CLK is HIGH - including immediately as LATCH returns to HIGH - to be read by the
-peripheral on transition to LOW
+     - Otherwise, the LATCH signal should cause the multi-tap to transition to the next joypad device in the chain for the scan - or
+to identify itself if the maximum number of controllers has been reached.
+     - In the event that there is no multi-tap (all real-world cases, as the multi-tap was never commercially available), the LATCH
+signal is only a signal for the joypad to sample and present its data, which will be repeated for all scans in a given scanning sequence.
+     - Actual data is only transferred when LATCH has returned to HIGH.
+  3. Following LATCH returning HIGH, the CLK signal cycles for 32 cycles at roughly 3 microseconds per cycle, sending/requesting data
+synchronously with the CLK signal.
+     - inbound data from peripheral should be set when the CLK signal is HIGH - including immediately as LATCH returns to HIGH - to be
+read by the PC-FX on transition to LOW.
+     - outbound data from PC-FX is also set when the CLK signal is HIGH - including immediately as LATCH returns to HIGH - to be read
+by the peripheral on transition to LOW.
 
 Data sequence is least-significant bit first, and most-significant bit last, with the controller-specific bit-fields above describing
 the meanings of the various bits. Keep in mind that electrical data values are inverted as compared with their internal representation
@@ -152,6 +156,7 @@ For each of the two joyports, there are separate control and data ports to handl
 
 The status port is read in order to determine scanning status.\
 The control port (same address as the status port) is written to, in order to trigger a scan.
+
 As the joyport can perform bidirectional I/O, the data port is also read/write.
 
 ### I/O Port Addresses
