@@ -130,7 +130,7 @@ at the software ports.  For example, an internal '0' would be represented extern
 
 #### Inbound Data
 
-[Inbound Data (Read Joypad)](images/Inbound_data_logic_trace.png)
+<img src="https://github.com/pcfx-devel/PC-FX_Info/blob/main/FX_Controllers/images/Inbound_data_logic_trace.png">
 
 #### Outbound Data
 
