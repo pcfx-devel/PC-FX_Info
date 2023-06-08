@@ -9,6 +9,11 @@ Information about the PC-FX controllers
     1. [Joypad](#joypad)
     2. [Mouse](#mouse)
     3. [Multitap](#multitap)
+ 3. [Controller Pinouts](#controller-pinouts)
+ 4. [Hardware Signalling](#hardware-signalling)
+ 5. [Reading and Writing in Software](#reading-and-writing-in-software)
+ 6. [Bugs and Memoranda](#bugs-and-memoranda)
+
 
 ## Overview
 
@@ -102,6 +107,32 @@ The electrical signals available at the ports are as follows:
 
 
 ## Hardware Signalling
+
+The signalling protocol on the PC-FX is serial, resembling SPI somewhat, with the PC-FX driving the CLK and other control lines.
+Although the general use of a joyport is to accept data from the outside world (such as from a joypad), the joyports on the PC-FX
+are capable of bidirectional data transfer, with the direction controlled by the R/W line.
+
+When a 'scan' (data transfer) takes place, the following sequence occurs:
+  1. The R/W line is set to indicate data direction:
+     - Low = "Read" (data is inbound to PC-FX)
+     - High = "Write" (data is outbound from PC-FX to peripheral)
+  2. The LATCH line descends from it normal high level to low for roughly 3 microseconds, returning to high, to indicate "start of scan".
+     - if CLK transitions for a cycle while LATCH is low, this is to indicate that the multitap joypad counter is to be reset, and the first joypad is to return its data in this scan.
+  3. CLK cycles for 32 cycles at roughly 3 microseconds per cycle, sending/requesting data synchronously with the CLK signal.
+     - (inbound data is set on XXXX, to be read on transition to YYY)
+     - (outbound data is set on transition to XXX, to be read on transition to YYY)
+
+Data sequence is least-significant bit first, and most-significant bit last, with the controller-specific bit-fields above describing
+the meanings of the various bits. Keep in mind that electrical data values are inverted as compared with their internal representation
+at the software ports.  For example, an internal '0' would be represented externally on the joyport as a '1'.
+
+### Logic Traces
+
+#### Inbound Data
+
+[Inbound Data (Read Joypad)](images/Inbound_data_logic_trace.png)
+
+#### Outbound Data
 
 
 ## Reading and Writing in Software
