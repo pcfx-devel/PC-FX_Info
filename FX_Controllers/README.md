@@ -11,7 +11,11 @@ Information about the PC-FX controllers
     3. [Multitap](#multitap)
  3. [Controller Pinouts](#controller-pinouts)
  4. [Hardware Signalling](#hardware-signalling)
+    1. [Logic Traces](#logic-traces)
  5. [Reading and Writing in Software](#reading-and-writing-in-software)
+    1. [I/O Port Addresses](#io-port-addresses)
+    2. [Control Port (When Written)](#control-port-when-written)
+    3. [Status Port (When Read)](#status-port-when-read)
  6. [Bugs and Memoranda](#bugs-and-memoranda)
 
 
