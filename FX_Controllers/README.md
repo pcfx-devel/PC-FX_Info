@@ -22,11 +22,10 @@ bits in a "scan". Scans are hardware-driven; no need to "bit-bang" the controlle
 
 Data can travel both inbound and outbound via these ports.
 
-Internal bit representation of the data is inverted from external representation. That is
-to say, if a button on a controller is not pressed, a pull-up resistor ensures that the
-value is 'high' (logical '1'), but when the value is read via the port, it is reported as '0'.
-Likewise, a pressed button is electrically 'low' (logical '0'), but reported to the program
-as a '1'.
+Internal bit representation of the data is inverted from external representation. That is to say,
+if a button on a controller is not pressed, a pull-up resistor ensures that the value is electrically
+'high' (logical '1'), but when the value is read via the port, it is reported as '0'.  Likewise, a button
+which is pressed is electrically 'low' (logical '0'), but reported to the program as a '1'.
 
 
 ## Types of Devices
@@ -38,7 +37,7 @@ interpret the remainder of the data sent via the port.
 ### Joypad
 
 The joypad is a fairly standard 6-button joypad from the time, but with a unique feature:
-Two slide switches ('A' and 'B') whose position can be read by the host machine.
+Two slide switches ('MODE 1' and 'MODE 2') whose position can be read by the host machine.
 
 The joypad is identified by code 15 (0xF) in the top four bits of the data word returned at the data port.
 Electrically, this is bit pattern ``0000``, but internally at the data port, the bit pattern is ``1111``.
@@ -65,8 +64,13 @@ The X and Y values are repesneted as 8-bit signed numbers:
  - 0x00 is used for no movement
  - 0x80 is undefined
 
-Horizontally, Left is negative, and Right is positive.
-Vertically, Up is negative, and Down is positive.
+**Horizontally:**\
+Left is negative\
+Right is positive.
+
+**Vertically:**\
+Up is negative\
+Down is positive.
 
 
 | Bit # | 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 |
@@ -78,7 +82,7 @@ Vertically, Up is negative, and Down is positive.
 
 ### Multitap
 
-The multitap was a peripheral which was never sold at retail, despite being designed, and having clear
+The multitap was a peripheral which was never sold at retail, despite having been designed, and having clear
 specifications in the developers manuals.
 
 In the event that a multi-tap is present, a sequence of 5 joyport scans should have the multi-tap
@@ -108,7 +112,7 @@ The electrical signals available at the ports are as follows:
 
 ## Hardware Signalling
 
-The signalling protocol on the PC-FX is serial, resembling SPI somewhat, with the PC-FX driving the CLK and other control lines.
+The signalling protocol on the PC-FX is serial, somewhat resembling SPI, with the PC-FX driving the CLK and other control lines.
 Although the general use of a joyport is to accept data from the outside world (such as from a joypad), the joyports on the PC-FX
 are capable of bidirectional data transfer, with the direction controlled by the R/W line.
 
@@ -117,11 +121,15 @@ When a 'scan' (data transfer) takes place, the following sequence occurs:
      - LOW = "Read" (data is outbound from peripheral, and inbound to PC-FX)
      - HIGH = "Write" (data is outbound from PC-FX, and inbound to peripheral)
   2. The LATCH line descends from it normal HIGH level to LOW for roughly 3 microseconds, returning to HIGH, to indicate "start of scan".
-     - If CLK transitions for a cycle while LATCH is low, this is to indicate that the multitap joypad counter is to be reset, and the first joypad is to return its data in this scan.
+     - If CLK transitions for a cycle while LATCH is low, this indicates that the multitap joypad counter is to be reset, and the first
+joypad is to return its data in this scan.
      - Actual data is only transferred when LATCH has returned to HIGH
-  3. CLK cycles for 32 cycles at roughly 3 microseconds per cycle, sending/requesting data synchronously with the CLK signal.
-     - inbound data from peripheral should be set when CLK is HIGH - including immediately as LATCH returns to HIGH - to be read by the PC-FX on transition to LOW
-     - outbound data from PC-FX is also set when CLK is HIGH - including immediately as LATCH returns to HIGH - to be read by the peripheral on transition to LOW
+  3. Following LATCH returning HIGH, CLK cycles for 32 cycles at roughly 3 microseconds per cycle, sending/requesting data synchronously
+with the CLK signal.
+     - inbound data from peripheral should be set when CLK is HIGH - including immediately as LATCH returns to HIGH - to be read by the
+PC-FX on transition to LOW
+     - outbound data from PC-FX is also set when CLK is HIGH - including immediately as LATCH returns to HIGH - to be read by the
+peripheral on transition to LOW
 
 Data sequence is least-significant bit first, and most-significant bit last, with the controller-specific bit-fields above describing
 the meanings of the various bits. Keep in mind that electrical data values are inverted as compared with their internal representation
@@ -136,6 +144,7 @@ at the software ports.  For example, an internal '0' would be represented extern
 #### Outbound Data
 
 <img src="https://github.com/pcfx-devel/PC-FX_Info/blob/main/FX_Controllers/images/Outbound_data_logic_trace.png">
+
 
 ## Reading and Writing in Software
 
