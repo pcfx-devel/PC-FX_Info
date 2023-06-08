@@ -134,7 +134,7 @@ at the software ports.  For example, an internal '0' would be represented extern
 
 #### Outbound Data
 
-<img src="https://github.com/pcfx-devel/PC-FX_Info/blob/main/FX_Controllers/images/Onbound_data_logic_trace.png">
+<img src="https://github.com/pcfx-devel/PC-FX_Info/blob/main/FX_Controllers/images/Outbound_data_logic_trace.png">
 
 ## Reading and Writing in Software
 
