@@ -2,6 +2,11 @@
 
 Information about the PC-FX controllers
 
+## Contents
+
+ 1. [Overview](#overview)
+ 2. [Types of Devices](#types-of-devices)
+
 ## Overview
 
 The PC-FX has two controller ports, and communicates via a serial protocol which sends 32
