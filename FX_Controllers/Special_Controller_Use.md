@@ -10,71 +10,71 @@ will take place from time to time.
 
 | Game Name | Can Use Mouse ? | Mode 1 Switch Function | Mode 2 Switch Function |
 |-----------|-----------------|------------------------|------------------------|
-| Aa! Megami-sama! | (To research) | (To research) | (To research) |
-| Akazukin Cha-Cha | (To research) | (To research) | (To research) |
-| All Japan Female Pro Wrestle - Queen of Queens | (To research) | (To research) | (To research) |
-| Angelique Special |(To research) | (To research) | (To research) |
-| Angelique Special 2 |(To research) | (To research) | (To research) |
-| Angelique Tenkuu no Requiem | (To research) | (To research) | (To research) |
-| Anime Freak FX: Vol. 1 | (To research) | (To research) | (To research) |
-| Anime Freak FX: Vol. 2 | (To research) | (To research) | (To research) |
-| Anime Freak FX: Vol. 3 | (To research) | (To research) | (To research) |
-| Anime Freak FX: Vol. 4 | (To research) | (To research) | (To research) |
-| Anime Freak FX: Vol. 5 | (To research) | (To research) | (To research) |
-| Anime Freak FX: Vol. 6 | (To research) | (To research) | (To research) |
-| Arubarea no Otome | (To research) | (To research) | (To research) |
-| Battle Heat | (To research) | (To research) | (To research) |
-| Blue Breaker | (To research) | (To research) | (To research) |
-| Blue Chicago Blues | (To research) | (To research) | (To research) |
-| Boundary Gate | (To research) | (To research) | (To research) |
-| Can Can Bunny Extra DX | (To research) | (To research) | (To research) |
-| Chip Chan Kick | (To research) | (To research) | (To research) |
-| Comic Road | (To research) | (To research) | (To research) |
-| Cutey Honey FX | (To research) | (To research) | (To research) |
-| Deep Blue Fleet | (To research) | (To research) | (To research) |
-| Der Langrisser FX | (To research) | (To research) | (To research) |
-| Doukyusei 2 | (To research) | (To research) | (To research) |
-| Dragon Knight 4 | (To research) | (To research) | (To research) |
-| Farland Story FX | (To research) | (To research) | (To research) |
-| Fire Woman Matoi-gumi | (To research) | (To research) | (To research) |
-| First Kiss Monogatari | (To research) | (To research) | (To research) |
-| Fushigi no Kuni no Angelique | (To research) | (To research) | (To research) |
-| Ginga Ojousama Densetsu Yuna FX | (To research) | (To research) | (To research) |
-| Ginga Ojousama Densetsu Yuna FX Special | (To research) | (To research) | (To research) |
-| Gokuraku Arena | (To research) | (To research) | (To research) |
-| Graduation Real | (To research) | (To research) | (To research) |
-| Kishin Doujin Zenki | (To research) | (To research) | (To research) |
-| Kokuu Hyouryuu Nirgends | (To research) | (To research) | (To research) |
-| Last Imperial Prince | (To research) | (To research) | (To research) |
-| Lunatic Dawn FX | (To research) | (To research) | (To research) |
-| Mahjong Goku Tenjiku | (To research) | (To research) | (To research) |
-| Makeruna! Makendou Z | (To research) | (To research) | (To research) |
-| Megami Paradise II | (To research) | (To research) | (To research) |
-| Minimum Nanonic | (To research) | (To research) | (To research) |
-| Miraculum - The Last Revelation | (To research) | (To research) | (To research) |
-| Neo Generation II FX | (To research) | (To research) | (To research) |
-| Ojousama Sousamou | (To research) | (To research) | (To research) |
-| Pachiokun FX | (To research) | (To research) | (To research) |
-| PCE Fan Special CD-ROM Vol. 2 | (To research) | (To research) | (To research) |
-| PCE Fan Special CD-ROM Vol. 3 | (To research) | (To research) | (To research) |
+| Aa! Megami-sama! | TBD | TBD | TBD |
+| Akazukin Cha-Cha | TBD | TBD | TBD |
+| All Japan Female Pro Wrestle - Queen of Queens | TBD | TBD | TBD |
+| Angelique Special |TBD | TBD | TBD |
+| Angelique Special 2 |TBD | TBD | TBD |
+| Angelique Tenkuu no Requiem | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 1 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 2 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 3 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 4 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 5 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 6 | TBD | TBD | TBD |
+| Arubarea no Otome | TBD | TBD | TBD |
+| Battle Heat | TBD | TBD | TBD |
+| Blue Breaker | TBD | TBD | TBD |
+| Blue Chicago Blues | TBD | TBD | TBD |
+| Boundary Gate | TBD | TBD | TBD |
+| Can Can Bunny Extra DX | TBD | TBD | TBD |
+| Chip Chan Kick | TBD | TBD | TBD |
+| Comic Road | TBD | TBD | TBD |
+| Cutey Honey FX | TBD | TBD | TBD |
+| Deep Blue Fleet | TBD | TBD | TBD |
+| Der Langrisser FX | TBD | TBD | TBD |
+| Doukyusei 2 | TBD | TBD | TBD |
+| Dragon Knight 4 | TBD | TBD | TBD |
+| Farland Story FX | TBD | TBD | TBD |
+| Fire Woman Matoi-gumi | TBD | TBD | TBD |
+| First Kiss Monogatari | TBD | TBD | TBD |
+| Fushigi no Kuni no Angelique | TBD | TBD | TBD |
+| Ginga Ojousama Densetsu Yuna FX | TBD | TBD | TBD |
+| Ginga Ojousama Densetsu Yuna FX Special | TBD | TBD | TBD |
+| Gokuraku Arena | TBD | TBD | TBD |
+| Graduation Real | TBD | TBD | TBD |
+| Kishin Doujin Zenki | TBD | TBD | TBD |
+| Kokuu Hyouryuu Nirgends | TBD | TBD | TBD |
+| Last Imperial Prince | TBD | TBD | TBD |
+| Lunatic Dawn FX | TBD | TBD | TBD |
+| Mahjong Goku Tenjiku | TBD | TBD | TBD |
+| Makeruna! Makendou Z | TBD | TBD | TBD |
+| Megami Paradise II | TBD | TBD | TBD |
+| Minimum Nanonic | TBD | TBD | TBD |
+| Miraculum - The Last Revelation | TBD | TBD | TBD |
+| Neo Generation II FX | TBD | TBD | TBD |
+| Ojousama Sousamou | TBD | TBD | TBD |
+| Pachiokun FX | TBD | TBD | TBD |
+| PCE Fan Special CD-ROM Vol. 2 | TBD | TBD | TBD |
+| PCE Fan Special CD-ROM Vol. 3 | TBD | TBD | TBD |
 | Pia Carrot He Youkosou | No (Not listed in manual) | Unused | Unused |
-| Power Dolls FX | (To research) | (To research) | (To research) |
-| Return to Zork | (To research) | (To research) | (To research) |
+| Power Dolls FX | TBD | TBD | TBD |
+| Return to Zork | TBD | TBD | TBD |
 | Ruruli Ra Rura | No (Not listed in manual) | Unused | Unused |
-| Shanghai - The Great Wall | (To research) | (To research) | (To research) |
+| Shanghai - The Great Wall | TBD | TBD | TBD |
 | Sparkling Feather | No (Not listed in manual) | Unused | Unused |
-| Super PCE Fan Deluxe Special CD-ROM Vol 1 | (To research) | (To research) | (To research) |
-| Super PCE Fan Deluxe Special CD-ROM Vol 2 | (To research) | (To research) | (To research) |
-| Super Power League FX | (To research) | (To research) | (To research) |
-| Super Real Mahjong P V FX | (To research) | (To research) | (To research) |
-| Team Innocent | (To research) | (To research) | (To research) |
+| Super PCE Fan Deluxe Special CD-ROM Vol 1 | TBD | TBD | TBD |
+| Super PCE Fan Deluxe Special CD-ROM Vol 2 | TBD | TBD | TBD |
+| Super Power League FX | TBD | TBD | TBD |
+| Super Real Mahjong P V FX | TBD | TBD | TBD |
+| Team Innocent | TBD | TBD | TBD |
 | Tekipaki Working Love | No (Not listed in manual) | Unused | Unused |
-| Tenchi Muyo FX | (To research) | (To research) | (To research) |
-| Tengai Makyou Karakuri Kakutouden | (To research) | (To research) | (To research) |
-| (Tokimeki Card Paradise | (To research) | (To research) | (To research) |
-| (Tonari no Princess no Rolfee | (To research) | (To research) | (To research) |
-| Tyoushin Keiki Zeroigar | (To research) | (To research) | (To research) |
-| Voice Paradise | (To research) | (To research) | (To research) |
-| Wakusei-koukitai Little Cats | (To research) | (To research) | (To research) |
-| Zoku Hatsukoi Monogatari | (To research) | (To research) | (To research) |
+| Tenchi Muyo FX | TBD | TBD | TBD |
+| Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
+| (Tokimeki Card Paradise | TBD | TBD | TBD |
+| (Tonari no Princess no Rolfee | TBD | TBD | TBD |
+| Tyoushin Keiki Zeroigar | TBD | TBD | TBD |
+| Voice Paradise | TBD | TBD | TBD |
+| Wakusei-koukitai Little Cats | TBD | TBD | TBD |
+| Zoku Hatsukoi Monogatari | TBD | TBD | TBD |
 
