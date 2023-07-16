@@ -78,8 +78,8 @@ If you find differences between the below information and real gameplay, plese l
 | Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
 | Tokimeki Card Paradise | TBD | TBD | TBD |
 | Tonari no Princess no Rolfee | No (Not listed in manual) | Unused | Unused |
-| Tyoushin Keiki Zeroigar | No (Not listed in manual) | Rapid-Fire Setting\(A: On, B: Off) | Unused |
+| Tyoushin Keiki Zeroigar | No (Not listed in manual) | A: Rapid-Fire ON, B: Rapid-Fire OFF | Unused |
 | Voice Paradise | TBD | TBD | TBD |
 | Wakusei-koukitai Little Cats | YES | Unused | Unused |
-| Zoku Hatsukoi Monogatari | TBD | TBD | TBD |
+| Zoku Hatsukoi Monogatari | No (Not listed in manual) | Unused | Unused |
 
