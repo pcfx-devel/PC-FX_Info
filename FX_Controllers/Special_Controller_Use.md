@@ -5,6 +5,11 @@ A table of which games use the Mouse or the Mode Switches on the Joypad
 This table is a complete list of games, but not all information is filled in yet; updates
 will take place from time to time.
 
+Information listed below is taken from the games' manuals; it is possible that
+undocumented features may exist.
+
+If you find differences between the below information and real gameplay, plese let me know.
+
 
 ### Table of values
 
@@ -71,10 +76,10 @@ will take place from time to time.
 | Tekipaki Working Love | No (Not listed in manual) | Unused | Unused |
 | Tenchi Muyo FX | TBD | TBD | TBD |
 | Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
-| (Tokimeki Card Paradise | TBD | TBD | TBD |
-| (Tonari no Princess no Rolfee | TBD | TBD | TBD |
-| Tyoushin Keiki Zeroigar | TBD | TBD | TBD |
+| Tokimeki Card Paradise | TBD | TBD | TBD |
+| Tonari no Princess no Rolfee | No (Not listed in manual) | Unused | Unused |
+| Tyoushin Keiki Zeroigar | No (Not listed in manual) | Rapid-Fire Setting (A: On, B: Off) | Unused |
 | Voice Paradise | TBD | TBD | TBD |
-| Wakusei-koukitai Little Cats | TBD | TBD | TBD |
+| Wakusei-koukitai Little Cats | YES | Unused | Unused |
 | Zoku Hatsukoi Monogatari | TBD | TBD | TBD |
 
