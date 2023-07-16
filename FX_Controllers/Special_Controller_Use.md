@@ -65,21 +65,21 @@ If you find differences between the below information and real gameplay, plese l
 | Pia Carrot He Youkosou | **YES**<br>(Not in manual) | **A: Only pan CG gallery when zoomed<br>B: Always pan** | Unused |
 | Power Dolls FX | TBD | TBD | TBD |
 | Return to Zork | TBD | TBD | TBD |
-| Ruruli Ra Rura | No (Not in manual) | Unused | Unused |
+| Ruruli Ra Rura | No<br>(Not in manual) | Unused | Unused |
 | Shanghai - The Great Wall | TBD | TBD | TBD |
-| Sparkling Feather | No (Not in manual) | Unused | Unused |
+| Sparkling Feather | No<br>(Not in manual) | Unused | Unused |
 | Super PCE Fan Deluxe Special CD-ROM Vol 1 | TBD | TBD | TBD |
 | Super PCE Fan Deluxe Special CD-ROM Vol 2 | TBD | TBD | TBD |
 | Super Power League FX | TBD | TBD | TBD |
 | Super Real Mahjong P V FX | TBD | TBD | TBD |
 | Team Innocent | TBD | TBD | TBD |
-| Tekipaki Working Love | No (Not in manual) | Unused | Unused |
+| Tekipaki Working Love | No<br>(Not in manual) | Unused | Unused |
 | Tenchi Muyo FX | TBD | TBD | TBD |
 | Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
 | Tokimeki Card Paradise | TBD | TBD | TBD |
-| Tonari no Princess no Rolfee | No (Not in manual) | Unused | Unused |
-| Tyoushin Keiki Zeroigar | No (Not in manual) | **A: Rapid-Fire ON,<br>B: Rapid-Fire OFF** | Unused |
+| Tonari no Princess no Rolfee | No<br>(Not in manual) | Unused | Unused |
+| Tyoushin Keiki Zeroigar | No<br>(Not in manual) | **A: Rapid-Fire ON,<br>B: Rapid-Fire OFF** | Unused |
 | Voice Paradise | TBD | TBD | TBD |
 | Wakusei-koukitai Little Cats | **YES** | Unused | Unused |
-| Zoku Hatsukoi Monogatari | No (Not in manual) | Unused | Unused |
+| Zoku Hatsukoi Monogatari | No<br>(Not in manual) | Unused | Unused |
 
