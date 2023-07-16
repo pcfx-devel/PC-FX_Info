@@ -15,8 +15,8 @@ If you find differences between the below information and real gameplay, plese l
 
 | Game Name | Mouse Support | Mode 1 Switch<br>Function | Mode 2 Switch<br>Function |
 |-----------|-----------------|------------------------|------------------------|
-| Aa! Megami-sama! | TBD | TBD | TBD |
-| Akazukin Cha-Cha | TBD | TBD | TBD |
+| Aa! Megami-sama! | **YES** | Unused | Unused |
+| Akazukin Cha-Cha | No<br>(Not in manual) | Unused | Unused |
 | All Japan Female Pro Wrestle - Queen of Queens | TBD | TBD | TBD |
 | Angelique Special |TBD | TBD | TBD |
 | Angelique Special 2 |TBD | TBD | TBD |
