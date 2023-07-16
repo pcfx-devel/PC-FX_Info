@@ -21,11 +21,13 @@ to the hardware and software.
 ### Information about FX Controllers
 
 [Controllers](FX_Controllers/README.md)
+[Special Controller Use by Games](FX_Controllers/Special_Controller_Use.md)
 
 
 ### Information about FX-BMP
 
 [FX-BMP](FX-BMP/README.md)
+[Memory Use by Games](FX-BMP/FX_Backup_Mem_Use.md)
 
 
 ## Hardware Upgrades/Modifications
