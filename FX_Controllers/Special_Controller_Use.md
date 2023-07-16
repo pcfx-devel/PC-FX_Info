@@ -62,7 +62,7 @@ If you find differences between the below information and real gameplay, plese l
 | Pachiokun FX | TBD | TBD | TBD |
 | PCE Fan Special CD-ROM Vol. 2 | TBD | TBD | TBD |
 | PCE Fan Special CD-ROM Vol. 3 | TBD | TBD | TBD |
-| Pia Carrot He Youkosou | **YES**<br>(Not in manual) | **A: Normal Mode<br>B: "Fast forward"** | Unused |
+| Pia Carrot He Youkosou | **YES**<br>(Not in manual) | **A: Normal Mode<br>B: "Fast forward"**<br>(Not in manual) | Unused |
 | Power Dolls FX | TBD | TBD | TBD |
 | Return to Zork | TBD | TBD | TBD |
 | Ruruli Ra Rura | No<br>(Not in manual) | Unused | Unused |
