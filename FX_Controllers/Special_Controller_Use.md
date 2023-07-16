@@ -13,7 +13,7 @@ If you find differences between the below information and real gameplay, plese l
 
 ### Table of values
 
-| Game Name | Mouse Support ? | Mode 1 Switch Function | Mode 2 Switch Function |
+| Game Name | Mouse Support | Mode 1 Switch<br>Function | Mode 2 Switch<br>Function |
 |-----------|-----------------|------------------------|------------------------|
 | Aa! Megami-sama! | TBD | TBD | TBD |
 | Akazukin Cha-Cha | TBD | TBD | TBD |
