@@ -19,14 +19,14 @@ If you find differences between the below information and real gameplay, plese l
 | Akazukin Cha-Cha | No<br>(Not in manual) | Unused | Unused |
 | All Japan Female Pro Wrestle - Queen of Queens | TBD | TBD | TBD |
 | Angelique Special |TBD | TBD | TBD |
-| Angelique Special 2 |TBD | TBD | TBD |
-| Angelique Tenkuu no Requiem | TBD | TBD | TBD |
+| Angelique Special 2 | No<br>(Not in manual) | Unused | Unused |
+| Angelique Tenkuu no Requiem | No<br>(Not in manual) | Unused | Unused |
 | Anime Freak FX: Vol. 1 | TBD | TBD | TBD |
 | Anime Freak FX: Vol. 2 | TBD | TBD | TBD |
 | Anime Freak FX: Vol. 3 | TBD | TBD | TBD |
-| Anime Freak FX: Vol. 4 | TBD | TBD | TBD |
-| Anime Freak FX: Vol. 5 | TBD | TBD | TBD |
-| Anime Freak FX: Vol. 6 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 4 | **YES** | Unused | Unused |
+| Anime Freak FX: Vol. 5 | **YES** | Unused | Unused |
+| Anime Freak FX: Vol. 6 | **YES** | Unused | Unused |
 | Arubarea no Otome | TBD | TBD | TBD |
 | Battle Heat | TBD | TBD | TBD |
 | Blue Breaker | TBD | TBD | TBD |
