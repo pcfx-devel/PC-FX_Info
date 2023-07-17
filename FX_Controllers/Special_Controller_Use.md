@@ -27,14 +27,14 @@ If you find differences between the below information and real gameplay, plese l
 | Anime Freak FX: Vol. 4 | **YES** | Unused | Unused |
 | Anime Freak FX: Vol. 5 | **YES** | Unused | Unused |
 | Anime Freak FX: Vol. 6 | **YES** | Unused | Unused |
-| Arubarea no Otome | TBD | TBD | TBD |
+| Arubarea no Otome | No<br>(Not in manual) | Unused | Unused |
 | Battle Heat | TBD | TBD | TBD |
-| Blue Breaker | TBD | TBD | TBD |
+| Blue Breaker | No<br>(Not in manual) | Unused | Unused |
 | Blue Chicago Blues | TBD | TBD | TBD |
-| Boundary Gate | TBD | TBD | TBD |
-| Can Can Bunny Extra DX | TBD | TBD | TBD |
-| Chip Chan Kick | TBD | TBD | TBD |
-| Comic Road | TBD | TBD | TBD |
+| Boundary Gate | No<br>(Not in manual) | Unused | Unused |
+| Can Can Bunny Extra DX | No<br>(Not in manual) | Unused | Unused |
+| Chip Chan Kick | No<br>(Not in manual) | Unused | Unused |
+| Comic Road | No<br>(Not in manual) | Unused | Unused |
 | Cutey Honey FX | TBD | TBD | TBD |
 | Deep Blue Fleet | TBD | TBD | TBD |
 | Der Langrisser FX | TBD | TBD | TBD |
