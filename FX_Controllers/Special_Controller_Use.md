@@ -40,9 +40,9 @@ If you find differences between the below information and real gameplay, plese l
 | Der Langrisser FX | TBD | TBD | TBD |
 | Doukyusei 2 | TBD | TBD | TBD |
 | Dragon Knight 4 | TBD | TBD | TBD |
-| Farland Story FX | TBD | TBD | TBD |
+| Farland Story FX | **YES** | TBD | TBD |
 | Fire Woman Matoi-gumi | TBD | TBD | TBD |
-| First Kiss Monogatari | TBD | TBD | TBD |
+| First Kiss Monogatari | **YES** | **A: Normal Mode<br>B: High-Speed Skip Mode** | Unused |
 | Fushigi no Kuni no Angelique | TBD | TBD | TBD |
 | Ginga Ojousama Densetsu Yuna FX | TBD | TBD | TBD |
 | Ginga Ojousama Densetsu Yuna FX Special | TBD | TBD | TBD |
@@ -62,8 +62,8 @@ If you find differences between the below information and real gameplay, plese l
 | Pachiokun FX | TBD | TBD | TBD |
 | PCE Fan Special CD-ROM Vol. 2 | TBD | TBD | TBD |
 | PCE Fan Special CD-ROM Vol. 3 | TBD | TBD | TBD |
-| Pia Carrot He Youkosou | **YES**<br>(Not in manual) | **A: Normal Mode<br>B: "Fast forward"**<br>(Not in manual) | Unused |
-| Power Dolls FX | TBD | TBD | TBD |
+| Pia Carrot He Youkosou | **YES**<br>(Not in manual) | **A: Normal Mode<br>B: High-Speed Skip Mode**<br>(Not in manual) | Unused |
+| Power Dolls FX | **YES** | TBD | TBD |
 | Return to Zork | TBD | TBD | TBD |
 | Ruruli Ra Rura | No<br>(Not in manual) | Unused | Unused |
 | Shanghai - The Great Wall | TBD | TBD | TBD |
@@ -78,7 +78,7 @@ If you find differences between the below information and real gameplay, plese l
 | Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
 | Tokimeki Card Paradise | TBD | TBD | TBD |
 | Tonari no Princess no Rolfee | No<br>(Not in manual) | Unused | Unused |
-| Tyoushin Keiki Zeroigar | No<br>(Not in manual) | **A: Rapid-Fire ON,<br>B: Rapid-Fire OFF** | Unused |
+| Tyoushin Keiki Zeroigar | No<br>(Not in manual) | **A: Rapid-Fire OFF,<br>B: Rapid-Fire ON** | Unused |
 | Voice Paradise | TBD | TBD | TBD |
 | Wakusei-koukitai Little Cats | **YES** | Unused | Unused |
 | Zoku Hatsukoi Monogatari | No<br>(Not in manual) | Unused | Unused |
