@@ -17,25 +17,25 @@ If you find differences between the below information and real gameplay, plese l
 |-----------|-----------------|------------------------|------------------------|
 | Aa! Megami-sama! | **YES** | Unused | Unused |
 | Akazukin Cha-Cha | No<br>(Not in manual) | Unused | Unused |
-| All Japan Female Pro Wrestle - Queen of Queens | TBD | TBD | TBD |
-| Angelique Special |TBD | TBD | TBD |
+| All Japan Female Pro Wrestle - Queen of Queens | No<br>(Not in manual) | Unused | Unused |
+| Angelique Special | No<br>(Not in manual) | Unused | Unused |
 | Angelique Special 2 | No<br>(Not in manual) | Unused | Unused |
 | Angelique Tenkuu no Requiem | No<br>(Not in manual) | Unused | Unused |
-| Anime Freak FX: Vol. 1 | TBD | TBD | TBD |
-| Anime Freak FX: Vol. 2 | TBD | TBD | TBD |
-| Anime Freak FX: Vol. 3 | TBD | TBD | TBD |
+| Anime Freak FX: Vol. 1 | No | Unused | Unused |
+| Anime Freak FX: Vol. 2 | **YES** | Unused | Unused |
+| Anime Freak FX: Vol. 3 | **YES** | Unused | Unused |
 | Anime Freak FX: Vol. 4 | **YES** | Unused | Unused |
 | Anime Freak FX: Vol. 5 | **YES** | Unused | Unused |
 | Anime Freak FX: Vol. 6 | **YES** | Unused | Unused |
 | Arubarea no Otome | No<br>(Not in manual) | Unused | Unused |
-| Battle Heat | TBD | TBD | TBD |
+| Battle Heat | No<br>(Not in manual) | Unused | Unused |
 | Blue Breaker | No<br>(Not in manual) | Unused | Unused |
-| Blue Chicago Blues | TBD | TBD | TBD |
+| Blue Chicago Blues | No<br>(Not in manual) | Unused | Unused |
 | Boundary Gate | No<br>(Not in manual) | Unused | Unused |
 | Can Can Bunny Extra DX | No<br>(Not in manual) | Unused | Unused |
 | Chip Chan Kick | No<br>(Not in manual) | Unused | Unused |
 | Comic Road | No<br>(Not in manual) | Unused | Unused |
-| Cutey Honey FX | TBD | TBD | TBD |
+| Cutey Honey FX | No<br>(Not in manual) | Unused | Unused |
 | Deep Blue Fleet | TBD | TBD | TBD |
 | Der Langrisser FX | TBD | TBD | TBD |
 | Doukyusei 2 | **YES** | Unused | Unused |
@@ -47,7 +47,7 @@ If you find differences between the below information and real gameplay, plese l
 | Ginga Ojousama Densetsu Yuna FX | TBD | TBD | TBD |
 | Ginga Ojousama Densetsu Yuna FX Special | No<br>(Not in manual) | Unused | Unused |
 | Gokuraku Arena | TBD | TBD | TBD |
-| Graduation Real | No **(YES ?)**<br>(Not in manual) | Unused | Unused |
+| Graduation Real | No<br>(Not in manual) | Unused | Unused |
 | Kishin Doujin Zenki | TBD | TBD | TBD |
 | Kokuu Hyouryuu Nirgends | No<br>(Not in manual) | Unused | Unused |
 | Last Imperial Prince | No<br>(Not in manual) | Unused | Unused |
@@ -77,7 +77,7 @@ If you find differences between the below information and real gameplay, plese l
 | Tenchi Muyo FX | TBD | TBD | TBD |
 | Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
 | Tokimeki Card Paradise | TBD | TBD | TBD |
-| Tonari no Princess no Rolfee | No<br>(Not in manual) | Unused | Unused |
+| Tonari no Princess no Rolfee | No<br>(Not in manual) | **A: Normal<br>B: Stop the backdrop ("Rolfee!") from scrolling**<br>(Not in manual) | Unused |
 | Tyoushin Keiki Zeroigar | No<br>(Not in manual) | **A: Rapid-Fire OFF,<br>B: Rapid-Fire ON** | Unused |
 | Voice Paradise | TBD | TBD | TBD |
 | Wakusei-koukitai Little Cats | **YES** | Unused | Unused |
