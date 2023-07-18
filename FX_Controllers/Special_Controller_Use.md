@@ -36,27 +36,27 @@ If you find differences between the below information and real gameplay, plese l
 | Chip Chan Kick | No<br>(Not in manual) | Unused | Unused |
 | Comic Road | No<br>(Not in manual) | Unused | Unused |
 | Cutey Honey FX | No<br>(Not in manual) | Unused | Unused |
-| Deep Blue Fleet | TBD | TBD | TBD |
-| Der Langrisser FX | TBD | TBD | TBD |
+| Deep Blue Fleet | No<br>(Not in manual) | Unused | Unused |
+| Der Langrisser FX | No<br>(Not in manual) | Unused | Unused |
 | Doukyusei 2 | **YES** | Unused | Unused |
 | Dragon Knight 4 | No<br>(Not in manual) | Unused | Unused |
 | Farland Story FX | **YES** | Unused | Unused |
 | Fire Woman Matoi-gumi | No<br>(Not in manual) | Unused | Unused |
 | First Kiss Monogatari | **YES** | **A: Normal Mode<br>B: High-Speed Skip Mode** | Unused |
 | Fushigi no Kuni no Angelique | No<br>(Not in manual) | Unused | Unused |
-| Ginga Ojousama Densetsu Yuna FX | TBD | TBD | TBD |
+| Ginga Ojousama Densetsu Yuna FX | No<br>(Not in manual) | Unused | Unused |
 | Ginga Ojousama Densetsu Yuna FX Special | No<br>(Not in manual) | Unused | Unused |
 | Gokuraku Arena | TBD | TBD | TBD |
 | Graduation Real | No<br>(Not in manual) | Unused | Unused |
-| Kishin Doujin Zenki | TBD | TBD | TBD |
+| Kishin Doujin Zenki | No<br>(Not in manual) | **A: Normal<br>B: Enables special moves on IV,V,VI**<br>Manual states it is "not used" | Unused |
 | Kokuu Hyouryuu Nirgends | No<br>(Not in manual) | Unused | Unused |
 | Last Imperial Prince | No<br>(Not in manual) | Unused | Unused |
-| Lunatic Dawn FX | TBD | TBD | TBD |
-| Mahjong Goku Tenjiku | TBD | TBD | TBD |
+| Lunatic Dawn FX | No<br>(Not in manual) | Unused | Unused |
+| Mahjong Goku Tenjiku | No<br>(Not in manual) | Unused | Unused |
 | Makeruna! Makendou Z | No<br>(Not in manual) | Unused | Unused |
 | Megami Paradise II | No<br>(Not in manual) | Unused | Unused |
 | Minimum Nanonic | No<br>(Not in manual) | Unused | Unused |
-| Miraculum - The Last Revelation | TBD | TBD | TBD |
+| Miraculum - The Last Revelation | No<br>(Not in manual) | Unused | Unused |
 | Neo Generation II FX | TBD | TBD | TBD |
 | Ojousama Sousamou | TBD | TBD | TBD |
 | Pachiokun FX | TBD | TBD | TBD |
