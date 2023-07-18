@@ -57,29 +57,29 @@ If you find differences between the below information and real gameplay, plese l
 | Megami Paradise II | No<br>(Not in manual) | Unused | Unused |
 | Minimum Nanonic | No<br>(Not in manual) | Unused | Unused |
 | Miraculum - The Last Revelation | No<br>(Not in manual) | Unused | Unused |
-| Neo Generation II FX | TBD | TBD | TBD |
-| Ojousama Sousamou | TBD | TBD | TBD |
-| Pachiokun FX | TBD | TBD | TBD |
+| Neo Generation II FX | No<br>(Not in manual) | Unused | Unused |
+| Ojousama Sousamou | No<br>(Not in manual) | Unused | Unused |
+| Pachiokun FX | No<br>(Not in manual) | Unused | Unused |
 | PCE Fan Special CD-ROM Vol. 2 | TBD | TBD | TBD |
 | PCE Fan Special CD-ROM Vol. 3 | TBD | TBD | TBD |
 | Pia Carrot He Youkosou | **YES**<br>(Not in manual) | **A: Normal Mode<br>B: High-Speed Skip Mode**<br>(Not in manual) | Unused |
-| Power Dolls FX | **YES** | TBD | TBD |
-| Return to Zork | TBD | TBD | TBD |
+| Power Dolls FX | **YES** | Unused | Unused |
+| Return to Zork | No<br>(Not in manual) | Unused | Unused |
 | Ruruli Ra Rura | No<br>(Not in manual) | Unused | Unused |
-| Shanghai - The Great Wall | TBD | TBD | TBD |
+| Shanghai - The Great Wall | **YES** | Unused | Unused |
 | Sparkling Feather | No<br>(Not in manual) | Unused | Unused |
 | Super PCE Fan Deluxe Special CD-ROM Vol 1 | TBD | TBD | TBD |
 | Super PCE Fan Deluxe Special CD-ROM Vol 2 | TBD | TBD | TBD |
-| Super Power League FX | TBD | TBD | TBD |
-| Super Real Mahjong P V FX | TBD | TBD | TBD |
-| Team Innocent | TBD | TBD | TBD |
+| Super Power League FX | No<br>(Not in manual) | Unused | Unused |
+| Super Real Mahjong P V FX | **YES** | Unused | Unused |
+| Team Innocent | No<br>(Not in manual) | Unused | Unused |
 | Tekipaki Working Love | No<br>(Not in manual) | Unused | Unused |
-| Tenchi Muyo FX | TBD | TBD | TBD |
-| Tengai Makyou Karakuri Kakutouden | TBD | TBD | TBD |
-| Tokimeki Card Paradise | TBD | TBD | TBD |
+| Tenchi Muyo FX | No<br>(Not in manual) | Unused | Unused |
+| Tengai Makyou Karakuri Kakutouden | No<br>(Not in manual) | Unused | Unused |
+| Tokimeki Card Paradise | **YES** | Unused | Unused |
 | Tonari no Princess no Rolfee | No<br>(Not in manual) | **A: Normal<br>B: Stop the backdrop ("Rolfee!") from scrolling**<br>(Not in manual) | Unused |
 | Tyoushin Keiki Zeroigar | No<br>(Not in manual) | **A: Rapid-Fire OFF,<br>B: Rapid-Fire ON** | Unused |
-| Voice Paradise | TBD | TBD | TBD |
+| Voice Paradise | **YES** | Unused | Unused |
 | Wakusei-koukitai Little Cats | **YES** | Unused | Unused |
 | Zoku Hatsukoi Monogatari | No<br>(Not in manual) | Unused | Unused |
 
