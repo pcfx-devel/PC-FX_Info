@@ -47,7 +47,7 @@ If you find differences between the below information and real gameplay, plese l
 | Ginga Ojousama Densetsu Yuna FX | No<br>(Not in manual) | Unused | Unused |
 | Ginga Ojousama Densetsu Yuna FX Special | No<br>(Not in manual) | Unused | Unused |
 | Gokuraku Arena | TBD | TBD | TBD |
-| Graduation Real | No<br>(Not in manual) | Unused | Unused |
+| Graduation Real | No | Unused | Unused |
 | Kishin Doujin Zenki | No<br>(Not in manual) | **A: Normal<br>B: Enables special moves on IV,V,VI**<br>Manual states it is "not used" | Unused |
 | Kokuu Hyouryuu Nirgends | No<br>(Not in manual) | Unused | Unused |
 | Last Imperial Prince | No<br>(Not in manual) | Unused | Unused |
