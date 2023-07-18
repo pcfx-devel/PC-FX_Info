@@ -43,19 +43,19 @@ If you find differences between the below information and real gameplay, plese l
 | Farland Story FX | **YES** | Unused | Unused |
 | Fire Woman Matoi-gumi | No<br>(Not in manual) | Unused | Unused |
 | First Kiss Monogatari | **YES** | **A: Normal Mode<br>B: High-Speed Skip Mode** | Unused |
-| Fushigi no Kuni no Angelique | TBD | TBD | TBD |
+| Fushigi no Kuni no Angelique | No<br>(Not in manual) | Unused | Unused |
 | Ginga Ojousama Densetsu Yuna FX | TBD | TBD | TBD |
-| Ginga Ojousama Densetsu Yuna FX Special | TBD | TBD | TBD |
+| Ginga Ojousama Densetsu Yuna FX Special | No<br>(Not in manual) | Unused | Unused |
 | Gokuraku Arena | TBD | TBD | TBD |
-| Graduation Real | TBD | TBD | TBD |
+| Graduation Real | No **(YES ?)**<br>(Not in manual) | Unused | Unused |
 | Kishin Doujin Zenki | TBD | TBD | TBD |
-| Kokuu Hyouryuu Nirgends | TBD | TBD | TBD |
-| Last Imperial Prince | TBD | TBD | TBD |
+| Kokuu Hyouryuu Nirgends | No<br>(Not in manual) | Unused | Unused |
+| Last Imperial Prince | No<br>(Not in manual) | Unused | Unused |
 | Lunatic Dawn FX | TBD | TBD | TBD |
 | Mahjong Goku Tenjiku | TBD | TBD | TBD |
-| Makeruna! Makendou Z | TBD | TBD | TBD |
-| Megami Paradise II | TBD | TBD | TBD |
-| Minimum Nanonic | TBD | TBD | TBD |
+| Makeruna! Makendou Z | No<br>(Not in manual) | Unused | Unused |
+| Megami Paradise II | No<br>(Not in manual) | Unused | Unused |
+| Minimum Nanonic | No<br>(Not in manual) | Unused | Unused |
 | Miraculum - The Last Revelation | TBD | TBD | TBD |
 | Neo Generation II FX | TBD | TBD | TBD |
 | Ojousama Sousamou | TBD | TBD | TBD |
