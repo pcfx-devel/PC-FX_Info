@@ -38,10 +38,10 @@ If you find differences between the below information and real gameplay, plese l
 | Cutey Honey FX | TBD | TBD | TBD |
 | Deep Blue Fleet | TBD | TBD | TBD |
 | Der Langrisser FX | TBD | TBD | TBD |
-| Doukyusei 2 | TBD | TBD | TBD |
-| Dragon Knight 4 | TBD | TBD | TBD |
-| Farland Story FX | **YES** | TBD | TBD |
-| Fire Woman Matoi-gumi | TBD | TBD | TBD |
+| Doukyusei 2 | **YES** | Unused | Unused |
+| Dragon Knight 4 | No<br>(Not in manual) | Unused | Unused |
+| Farland Story FX | **YES** | Unused | Unused |
+| Fire Woman Matoi-gumi | No<br>(Not in manual) | Unused | Unused |
 | First Kiss Monogatari | **YES** | **A: Normal Mode<br>B: High-Speed Skip Mode** | Unused |
 | Fushigi no Kuni no Angelique | TBD | TBD | TBD |
 | Ginga Ojousama Densetsu Yuna FX | TBD | TBD | TBD |
