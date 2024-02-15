@@ -65,16 +65,30 @@ which gives the CPLD a "good" or "bad" level, which is delivers back to the host
 | Description | Pin | Pin | Description |
 |-------------|-----|-----|-------------|
 |  A26<br>(to CPLD, pin 12) | **Pin 50** | **Pin 25** | GND|
-| /CartSel - Low if top 5 bits are '11101'/ Hex '0xE8'<br>(to CPLD, pin 10) | **Pin 49** | **Pin 24** |  A18<br>(to CPLD, pin 11) |
+| /CartSel<br>Low if top 5 bits are '11101'/ Hex '0xE8'<br>(to CPLD, pin 10) | **Pin 49** | **Pin 24** |  A18<br>(to CPLD, pin 11) |
 | No Connection | **Pin 48** | **Pin 23** | A17 |
 | /WE | **Pin 47** | **Pin 22** | A16 |
 | GND | **Pin 46** | **Pin 21** | Vdd |
-| /OE (to CPLD, pin 4) | **Pin 45** | **Pin 20** | Vdd |
+| /OE<br>(to CPLD, pin 4) | **Pin 45** | **Pin 20** | Vdd |
 | GND | **Pin 44** | **Pin 19** | No Connection |
 | GND | **Pin 43** | **Pin 18** | A15 |
-| A25 (to CPLD, pin 3) | **Pin 42** | **Pin 17** | A14 |
-| A23 (No Connection inside cart) | **Pin 41** | **Pin 16** | A13 |
-| A22 (No Connection inside cart) | **Pin 40** | **Pin 15** | A12 |
+| A25<br>(to CPLD, pin 3) | **Pin 42** | **Pin 17** | A14 |
+| A23<br>(No Connection inside cart) | **Pin 41** | **Pin 16** | A13 |
+| A22<br>(No Connection inside cart) | **Pin 40** | **Pin 15** | A12 |
+| GND | **Pin 39** | **Pin 14** | A11 |
+| A21<br>(No Connection inside cart) | **Pin 38** | **Pin 13** | A10 |
+| A20<br>(No Connection inside cart) | **Pin 37** | **Pin 12** | A9 |
+| A19<br>(to CPLD, pin 2) | **Pin 36** | **Pin 11** | Vdd |
+| GND | **Pin 35** | **Pin 10** | Vdd |
+| D7 | **Pin 34** | **Pin 9** | A8 |
+| D6 | **Pin 33** | **Pin 8** | A7 |
+| D5 | **Pin 32** | **Pin 7** | A6 |
+| D4 | **Pin 31** | **Pin 6** | A5 |
+| D3 | **Pin 30** | **Pin 5** | A4 |
+| D2 | **Pin 29** | **Pin 4** | A3 |
+| D1 | **Pin 28** | **Pin 3** | A2 |
+| D0<br>(to CPLD pin 1) | **Pin 27** | **Pin 2** | A1<br>(no A0; data is every second address) |
+| GND | **Pin 26** | **Pin 1** | GND |
 
 | Pin | Description |
 |-----|-------------|
