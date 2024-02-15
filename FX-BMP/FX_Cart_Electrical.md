@@ -13,12 +13,12 @@ than that, and still be effective.
 
 ### Data Read Capture
 
-![Data Read Capture](images/BMP_cart_read.png)
+![Data Read Capture](../images/BMP_cart_read.png)
 
 
 ### Data Write Capture
 
-![Data Write Capture](images/BMP_cart_write.png)
+![Data Write Capture](../images/BMP_cart_write.png)
 
 
 ## Card-Edge Physical Dimensions
