@@ -65,7 +65,7 @@ which gives the CPLD a "good" or "bad" level, which is delivers back to the host
 | Description | Pin | Pin | Description |
 |-------------|-----|-----|-------------|
 |  A26 (to CPLD, pin 12) | Pin 50 | Pin 25 | GND|
-| /CartSel - low if top 5 bits are '11101', or address starts with '0xE8' (to CPLD, pin 10) | Pin 49 | Pin 24 |  A18 (to CPLD, pin 11) |
+| /CartSel - low if top 5 bits are '11101'/ Hex '0xE8'\ (to CPLD, pin 10) | Pin 49 | Pin 24 |  A18 (to CPLD, pin 11) |
 | No Connection | Pin 48 | Pin 23 | A17 |
 
 
