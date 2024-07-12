@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PC-FX")(type "KiCad")(uri "${KIPRJMOD}/Libs/PC-FX.kicad_sym")(options "")(descr ""))
+  (lib (name "PC-Engine_CDR-30")(type "KiCad")(uri "/home/regis/kicad/PC-Engine/PC-Engine_CDR-30A_Schematics/Libs/PC-Engine_CDR-30.kicad_sym")(options "")(descr ""))
+  (lib (name "M27C256B-12F1")(type "KiCad")(uri "${KIPRJMOD}/Libs/M27C256B-12F1.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PC-FX")(type "KiCad")(uri "${KIPRJMOD}/Libs/CD_board.pretty")(options "")(descr ""))
+)
