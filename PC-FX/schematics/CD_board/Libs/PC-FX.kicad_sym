@@ -7946,7 +7946,7 @@
 		(symbol "D78C10GF_1_1"
 			(rectangle
 				(start -29.21 40.64)
-				(end 29.21 -48.26)
+				(end 29.21 -45.72)
 				(stroke
 					(width 0)
 					(type default)
@@ -7956,7 +7956,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -53.34 90)
+				(at -34.29 -12.7 0)
 				(length 5.08)
 				(name "PA6"
 					(effects
@@ -7974,7 +7974,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -21.59 180)
+				(at -34.29 -38.1 0)
 				(length 5.08)
 				(name "PB7"
 					(effects
@@ -7992,7 +7992,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 26.67 0)
+				(at -34.29 25.4 0)
 				(length 5.08)
 				(name "PC0/TxD"
 					(effects
@@ -8010,7 +8010,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 24.13 0)
+				(at -34.29 22.86 0)
 				(length 5.08)
 				(name "PC1/RxD"
 					(effects
@@ -8028,7 +8028,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 21.59 0)
+				(at -34.29 20.32 0)
 				(length 5.08)
 				(name "PC2/~{SCK}"
 					(effects
@@ -8046,7 +8046,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 19.05 0)
+				(at -34.29 17.78 0)
 				(length 5.08)
 				(name "PC3/INT2"
 					(effects
@@ -8064,7 +8064,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 16.51 0)
+				(at -34.29 15.24 0)
 				(length 5.08)
 				(name "PC4/TO"
 					(effects
@@ -8082,7 +8082,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 13.97 0)
+				(at -34.29 12.7 0)
 				(length 5.08)
 				(name "PC5/CI"
 					(effects
@@ -8100,7 +8100,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 11.43 0)
+				(at -34.29 10.16 0)
 				(length 5.08)
 				(name "PC6/CO0"
 					(effects
@@ -8118,7 +8118,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 8.89 0)
+				(at -34.29 7.62 0)
 				(length 5.08)
 				(name "PC7/CO1"
 					(effects
@@ -8136,7 +8136,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 36.83 0)
+				(at -34.29 33.02 0)
 				(length 5.08)
 				(name "~{NMI}"
 					(effects
@@ -8154,7 +8154,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -53.34 90)
+				(at -34.29 -15.24 0)
 				(length 5.08)
 				(name "PA7"
 					(effects
@@ -8172,7 +8172,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 34.29 0)
+				(at -34.29 30.48 0)
 				(length 5.08)
 				(name "INT1"
 					(effects
@@ -8190,7 +8190,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 31.75 0)
+				(at -13.97 45.72 270)
 				(length 5.08)
 				(name "MODE1"
 					(effects
@@ -8208,7 +8208,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -13.97 180)
+				(at -17.78 -50.8 90)
 				(length 5.08)
 				(name "~{RESET}"
 					(effects
@@ -8226,7 +8226,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -53.34 90)
+				(at -16.51 45.72 270)
 				(length 5.08)
 				(name "MODE0"
 					(effects
@@ -8244,7 +8244,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -25.4 0)
+				(at -10.16 -50.8 90)
 				(length 5.08)
 				(name "X2"
 					(effects
@@ -8262,7 +8262,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -35.56 0)
+				(at 0 -50.8 90)
 				(length 5.08)
 				(name "X1"
 					(effects
@@ -8280,7 +8280,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -53.34 90)
+				(at 15.24 -50.8 90)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -8298,7 +8298,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -53.34 90)
+				(at 17.78 -50.8 90)
 				(length 5.08)
 				(name "AVSS"
 					(effects
@@ -8316,7 +8316,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -44.45 180)
+				(at 34.29 -38.1 180)
 				(length 5.08)
 				(name "AN0"
 					(effects
@@ -8334,7 +8334,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -41.91 180)
+				(at 34.29 -35.56 180)
 				(length 5.08)
 				(name "AN1"
 					(effects
@@ -8352,7 +8352,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -10.16 0)
+				(at -34.29 -20.32 0)
 				(length 5.08)
 				(name "PB0"
 					(effects
@@ -8370,7 +8370,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -39.37 180)
+				(at 34.29 -33.02 180)
 				(length 5.08)
 				(name "AN2"
 					(effects
@@ -8388,7 +8388,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -36.83 180)
+				(at 34.29 -30.48 180)
 				(length 5.08)
 				(name "AN3"
 					(effects
@@ -8406,7 +8406,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -34.29 180)
+				(at 34.29 -27.94 180)
 				(length 5.08)
 				(name "AN4"
 					(effects
@@ -8424,7 +8424,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -31.75 180)
+				(at 34.29 -25.4 180)
 				(length 5.08)
 				(name "AN5"
 					(effects
@@ -8442,7 +8442,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -29.21 180)
+				(at 34.29 -22.86 180)
 				(length 5.08)
 				(name "AN6"
 					(effects
@@ -8460,7 +8460,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -26.67 180)
+				(at 34.29 -20.32 180)
 				(length 5.08)
 				(name "AN7"
 					(effects
@@ -8478,7 +8478,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 45.72 270)
+				(at 2.54 45.72 270)
 				(length 5.08)
 				(name "VAREF"
 					(effects
@@ -8496,7 +8496,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 45.72 270)
+				(at 0 45.72 270)
 				(length 5.08)
 				(name "AVDD"
 					(effects
@@ -8514,7 +8514,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -8.89 180)
+				(at 34.29 -15.24 180)
 				(length 5.08)
 				(name "~{RD}"
 					(effects
@@ -8532,7 +8532,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -6.35 180)
+				(at 34.29 -12.7 180)
 				(length 5.08)
 				(name "~{WR}"
 					(effects
@@ -8550,7 +8550,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -12.7 0)
+				(at -34.29 -22.86 0)
 				(length 5.08)
 				(name "PB1"
 					(effects
@@ -8568,7 +8568,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -3.81 180)
+				(at 34.29 -10.16 180)
 				(length 5.08)
 				(name "ALE"
 					(effects
@@ -8586,7 +8586,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -1.27 180)
+				(at 34.29 -5.08 180)
 				(length 5.08)
 				(name "PF0"
 					(effects
@@ -8604,7 +8604,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 1.27 180)
+				(at 34.29 -2.54 180)
 				(length 5.08)
 				(name "PF1"
 					(effects
@@ -8622,7 +8622,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 3.81 180)
+				(at 34.29 0 180)
 				(length 5.08)
 				(name "PF2"
 					(effects
@@ -8640,7 +8640,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 6.35 180)
+				(at 34.29 2.54 180)
 				(length 5.08)
 				(name "PF3"
 					(effects
@@ -8658,7 +8658,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 8.89 180)
+				(at 34.29 5.08 180)
 				(length 5.08)
 				(name "PF4"
 					(effects
@@ -8676,7 +8676,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 11.43 180)
+				(at 34.29 7.62 180)
 				(length 5.08)
 				(name "PF5"
 					(effects
@@ -8694,7 +8694,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 13.97 180)
+				(at 34.29 10.16 180)
 				(length 5.08)
 				(name "PF6"
 					(effects
@@ -8712,7 +8712,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 16.51 180)
+				(at 34.29 12.7 180)
 				(length 5.08)
 				(name "PF7"
 					(effects
@@ -8730,7 +8730,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 19.05 180)
+				(at 34.29 15.24 180)
 				(length 5.08)
 				(name "PD0"
 					(effects
@@ -8748,7 +8748,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -15.24 0)
+				(at -34.29 -25.4 0)
 				(length 5.08)
 				(name "PB2"
 					(effects
@@ -8766,7 +8766,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 21.59 180)
+				(at 34.29 17.78 180)
 				(length 5.08)
 				(name "PD1"
 					(effects
@@ -8784,7 +8784,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 24.13 180)
+				(at 34.29 20.32 180)
 				(length 5.08)
 				(name "PD2"
 					(effects
@@ -8802,7 +8802,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 26.67 180)
+				(at 34.29 22.86 180)
 				(length 5.08)
 				(name "PD3"
 					(effects
@@ -8820,7 +8820,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 29.21 180)
+				(at 34.29 25.4 180)
 				(length 5.08)
 				(name "PD4"
 					(effects
@@ -8838,7 +8838,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 31.75 180)
+				(at 34.29 27.94 180)
 				(length 5.08)
 				(name "PD5"
 					(effects
@@ -8856,7 +8856,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 34.29 180)
+				(at 34.29 30.48 180)
 				(length 5.08)
 				(name "PD6"
 					(effects
@@ -8874,7 +8874,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 36.83 180)
+				(at 34.29 33.02 180)
 				(length 5.08)
 				(name "PD7"
 					(effects
@@ -8892,7 +8892,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 45.72 270)
+				(at 12.7 45.72 270)
 				(length 5.08)
 				(name "~{STOP}"
 					(effects
@@ -8910,7 +8910,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 45.72 270)
+				(at -2.54 45.72 270)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -8946,7 +8946,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -17.78 0)
+				(at -34.29 -27.94 0)
 				(length 5.08)
 				(name "PB3"
 					(effects
@@ -9018,7 +9018,7 @@
 				)
 			)
 			(pin passive line
-				(at -16.51 -53.34 90)
+				(at -34.29 -7.62 0)
 				(length 5.08)
 				(name "PA4"
 					(effects
@@ -9036,7 +9036,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 45.72 270)
+				(at -34.29 -10.16 0)
 				(length 5.08)
 				(name "PA5"
 					(effects
@@ -9054,7 +9054,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -20.32 0)
+				(at -34.29 -30.48 0)
 				(length 5.08)
 				(name "PB4"
 					(effects
@@ -9072,7 +9072,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -16.51 180)
+				(at -34.29 -33.02 0)
 				(length 5.08)
 				(name "PB5"
 					(effects
@@ -9090,7 +9090,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -19.05 180)
+				(at -34.29 -35.56 0)
 				(length 5.08)
 				(name "PB6"
 					(effects
@@ -12233,6 +12233,448 @@
 				(at 0 21.59 270)
 				(length 2.54)
 				(name "VCC2R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TC514256AP"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at -8.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC514256AP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOJ-36_10.16x23.49mm_P1.27mm"
+			(at 2.54 -43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/pcfx-devel/PC-FX_Info/blob/main/PC-FX/datasheets/DaughterBoard/TC514256AP.PDF"
+			(at 9.144 -53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54"
+			(at 0.254 -39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DRAM PC133 1Mb 256kbx4 MEMORY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TSOP?II*22.2x10.16mm*P0.8mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TC514256AP_0_1"
+			(rectangle
+				(start -10.16 21.59)
+				(end 10.16 -21.59)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TC514256AP_1_1"
+			(pin bidirectional line
+				(at 12.7 16.51 180)
+				(length 2.54)
+				(name "I/O1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 13.97 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 11.43 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 8.89 0)
+				(length 2.54)
+				(name "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 24.13 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 6.35 0)
+				(length 2.54)
+				(name "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 3.81 0)
+				(length 2.54)
+				(name "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -1.27 0)
+				(length 2.54)
+				(name "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -3.81 0)
+				(length 2.54)
+				(name "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 13.97 180)
+				(length 2.54)
+				(name "I/O2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -13.97 0)
+				(length 2.54)
+				(name "~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -8.89 0)
+				(length 2.54)
+				(name "~{CAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 11.43 180)
+				(length 2.54)
+				(name "I/O3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 8.89 180)
+				(length 2.54)
+				(name "I/O4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -24.13 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -16.51 0)
+				(length 2.54)
+				(name "~{WRITE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -11.43 0)
+				(length 2.54)
+				(name "~{RAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -16.51 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 16.51 0)
+				(length 2.54)
+				(name "A0"
 					(effects
 						(font
 							(size 1.27 1.27)
