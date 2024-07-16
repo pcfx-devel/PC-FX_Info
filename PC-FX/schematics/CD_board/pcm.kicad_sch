@@ -4639,6 +4639,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72befe09-2454-4a18-9d1b-c5ca10d49a41")
+	)
+	(wire
+		(pts
 			(xy 53.34 30.48) (xy 60.96 30.48)
 		)
 		(stroke
@@ -4839,6 +4849,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 44.45) (xy 76.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93375bcf-947b-4ab4-b1e6-927bd1caed97")
+	)
+	(wire
+		(pts
 			(xy 208.28 63.5) (xy 210.82 63.5)
 		)
 		(stroke
@@ -4986,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "b7d4b36b-f35e-40c2-a6a8-9d592279cf68")
+	)
+	(wire
+		(pts
+			(xy 19.05 46.99) (xy 19.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b903752d-5e2f-4f4d-a7e6-d9a9bfe54696")
 	)
 	(wire
 		(pts
@@ -5259,6 +5289,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 30.48) (xy 19.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e905b007-65fc-4911-9542-6f94d7902ac9")
+	)
+	(wire
+		(pts
 			(xy 34.29 129.54) (xy 19.05 129.54)
 		)
 		(stroke
@@ -5306,6 +5346,26 @@
 			(type default)
 		)
 		(uuid "f18da1f6-79bf-4cd1-afe0-aca01c7e8348")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 76.2 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f296c388-9c07-42d7-92a9-ea45ef83b438")
+	)
+	(wire
+		(pts
+			(xy 19.05 36.83) (xy 19.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49b7378-a464-42f9-b36a-db74ffd14d7e")
 	)
 	(wire
 		(pts
@@ -5429,7 +5489,7 @@
 		)
 		(uuid "0e8ca89c-da6c-4be0-b577-f4116d849a21")
 	)
-	(hierarchical_label "BCLK"
+	(hierarchical_label "DSP_BCLK"
 		(shape input)
 		(at 101.6 58.42 180)
 		(fields_autoplaced yes)
@@ -5441,7 +5501,7 @@
 		)
 		(uuid "21d224cb-8241-491c-8de6-545ab4fd2b48")
 	)
-	(hierarchical_label "DOUT"
+	(hierarchical_label "DSP_DOUT"
 		(shape input)
 		(at 101.6 60.96 180)
 		(fields_autoplaced yes)
@@ -5453,7 +5513,7 @@
 		)
 		(uuid "71e537e1-2e36-445e-a126-059a008d8fa7")
 	)
-	(hierarchical_label "IC403_P90"
+	(hierarchical_label "DOUT"
 		(shape output)
 		(at 139.7 60.96 0)
 		(fields_autoplaced yes)
@@ -5465,7 +5525,7 @@
 		)
 		(uuid "746c31f1-4a93-4e20-95e7-924ceb7bbfef")
 	)
-	(hierarchical_label "IC403_P91"
+	(hierarchical_label "BCLK"
 		(shape output)
 		(at 139.7 58.42 0)
 		(fields_autoplaced yes)
@@ -5477,7 +5537,7 @@
 		)
 		(uuid "74e52a6a-e5af-4399-89ab-d4c35f90ec66")
 	)
-	(hierarchical_label "WDCK"
+	(hierarchical_label "DSP_WDCK"
 		(shape input)
 		(at 101.6 66.04 180)
 		(fields_autoplaced yes)
@@ -5513,7 +5573,7 @@
 		)
 		(uuid "99c556aa-b574-4d95-8ae8-b4532de68434")
 	)
-	(hierarchical_label "IC403_P92"
+	(hierarchical_label "WDCK"
 		(shape output)
 		(at 139.7 66.04 0)
 		(fields_autoplaced yes)
@@ -5549,7 +5609,7 @@
 		)
 		(uuid "ad985842-1ad9-4acd-a855-d7e2ee141233")
 	)
-	(hierarchical_label "IC403_P94"
+	(hierarchical_label "LRCK"
 		(shape output)
 		(at 139.7 63.5 0)
 		(fields_autoplaced yes)
@@ -5573,7 +5633,7 @@
 		)
 		(uuid "d2a2fa65-4882-4b5a-b080-5321cfa02df0")
 	)
-	(hierarchical_label "LRCK"
+	(hierarchical_label "DSP_LRCK"
 		(shape input)
 		(at 101.6 63.5 180)
 		(fields_autoplaced yes)
@@ -5646,6 +5706,76 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 76.2 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e582799-2849-4ccb-8dfd-c31359f42031")
+		(property "Reference" "C305"
+			(at 79.121 38.5388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 79.121 40.9631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+			(at 77.1652 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb7d93d-25d1-480f-8fb6-0c7e0230dcc6")
+		)
+		(pin "2"
+			(uuid "1b242470-51be-4b36-b3ed-3c9562616bd7")
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -8245,6 +8375,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e6766e-b856-4052-b15e-1863b5e62e14")
+		(property "Reference" "#PWR063"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 51.4334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65f2da70-f0ae-4216-ab4e-71cd220fb089")
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 137.16 154.94 270)
 		(mirror x)
@@ -8715,6 +8911,73 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
 					(reference "C210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 19.05 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da27b460-ea26-405c-9be3-d772a627286c")
+		(property "Reference" "C306"
+			(at 22.098 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 21.336 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 18.0848 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6151f17-159e-4b6b-992e-caa22723fa6d")
+		)
+		(pin "2"
+			(uuid "bf0901bf-96d2-4675-85b5-e94033237e24")
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -9451,6 +9714,72 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
 					(reference "C209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe2c3503-9209-4940-b41d-ffe004fdb62c")
+		(property "Reference" "#PWR0118"
+			(at 19.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 51.4334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0929ea80-d79c-409e-834a-e21791286db8")
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5d1c0231-9250-409c-9705-ac57958bef37"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)

@@ -464,7 +464,7 @@
     ],
     [
       "c97e1432-7b04-4f5e-85c1-ad01cd7c5862",
-      "SCSI_1"
+      "SCSI"
     ],
     [
       "a0eaaab6-d1f2-4662-b9ea-27212b96ad7f",
@@ -477,6 +477,10 @@
     [
       "5d1c0231-9250-409c-9705-ac57958bef37",
       "PCM"
+    ],
+    [
+      "ad386c04-69f5-4b92-a752-4a5606d17ec5",
+      "RF Amplifer"
     ]
   ],
   "text_variables": {}
