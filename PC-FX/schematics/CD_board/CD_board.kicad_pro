@@ -285,6 +285,40 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
@@ -311,6 +345,22 @@
       {
         "netclass": "VCC",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "/AVCC"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "VC",
+        "pattern": "/VC"
+      },
+      {
+        "netclass": "VC",
+        "pattern": "/RF Amplifer/VC"
       }
     ]
   },
@@ -481,6 +531,14 @@
     [
       "ad386c04-69f5-4b92-a752-4a5606d17ec5",
       "RF Amplifer"
+    ],
+    [
+      "ebb3f727-b892-4f06-bc76-9637dbfdc33d",
+      "SERVO"
+    ],
+    [
+      "5a0dd6dd-a708-4dff-86d4-f0f456a5825a",
+      "POWER"
     ]
   ],
   "text_variables": {}
