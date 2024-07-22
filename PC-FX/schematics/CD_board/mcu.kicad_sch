@@ -8871,6 +8871,16 @@
 		)
 		(uuid "ffb1f8dd-5f28-417b-ae3c-37033316b0f1")
 	)
+	(text "fast sled?"
+		(exclude_from_sim no)
+		(at 192.024 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16e78f56-f8ac-41f7-b15f-8cedaf8b7c18")
+	)
 	(text "IC402 P26 & IC403 P69"
 		(exclude_from_sim no)
 		(at 126.746 125.73 0)
@@ -8963,9 +8973,9 @@
 		)
 		(uuid "9d75b530-d919-415e-a319-5a4691974a94")
 	)
-	(text "Unpopulated\nconnectors"
+	(text "Unpopulated\nconnectors\nUnimplemented control panel?"
 		(exclude_from_sim no)
-		(at 382.524 96.774 0)
+		(at 381.762 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)

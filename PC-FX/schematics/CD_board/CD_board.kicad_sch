@@ -7756,7 +7756,7 @@
 				)
 				(justify left)
 			)
-			(uuid "89ad73bc-62c3-421f-8b17-57f33b5bec46")
+			(uuid "b383fcee-b3b1-4bae-a812-d587477805f8")
 		)
 		(instances
 			(project "CD_board"

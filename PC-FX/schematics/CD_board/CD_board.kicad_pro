@@ -361,6 +361,10 @@
       {
         "netclass": "VC",
         "pattern": "/RF Amplifer/VC"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "/SERVO/AVCC"
       }
     ]
   },
