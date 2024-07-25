@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PC-FX CD Board Schematics")
-		(date "2024-07-21")
+		(date "2024-07-25")
 		(rev "0.1")
 		(company "Author: Regis Galland")
 		(comment 1 "Reversed engineered schematics of the PC-FX CD PCB")
@@ -845,126 +845,6 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1065,6 +945,126 @@
 				)
 			)
 			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+9V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1765,17 +1765,17 @@
 		(uuid "fc831751-60a3-4c6c-b27f-569455f0c1dc")
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 67.31 66.04 0)
+		(lib_id "power:+9V")
+		(at 156.21 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "012910bf-f753-447a-ae3e-26fed6da37ee")
-		(property "Reference" "#PWR07"
-			(at 67.31 69.85 0)
+		(uuid "02c66ebe-99ec-46cf-bdd0-195826fd97c4")
+		(property "Reference" "#PWR05"
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,8 +1783,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 67.31 61.9069 0)
+		(property "Value" "+9V"
+			(at 156.21 56.8269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 66.04 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 66.04 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,8 +1809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 67.31 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,12 +1819,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b9f724b-0e64-4f51-9e57-a3fafabbc9ca")
+			(uuid "5e485844-eb05-4004-a704-10b0c33f3f4d")
 		)
 		(instances
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2031,72 +2031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 156.21 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25ea4ae5-4b24-44af-b1cc-90215e938876")
-		(property "Reference" "#PWR05"
-			(at 156.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 156.21 56.8269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf865016-0b60-446d-8bda-e707ca4ce4c4")
-		)
-		(instances
-			(project "CD_board"
-				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 90.17 0)
 		(unit 1)
@@ -2291,6 +2225,72 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
 					(reference "L301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 116.84 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36aca5d6-7e71-4efa-9f25-83ca53d0f969")
+		(property "Reference" "#PWR040"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 116.84 23.8069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f83017-5f0b-4306-ba4d-5a93b5a0df25")
+		)
+		(instances
+			(project ""
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3438,72 +3438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 116.84 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6130f7c-be09-42e4-9cd2-9f6a60f21592")
-		(property "Reference" "#PWR063"
-			(at 116.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 116.84 23.8069 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac485387-0a10-4155-ac7c-8cd8cf5ff912")
-		)
-		(instances
-			(project "CD_board"
-				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 73.66 0)
 		(unit 1)
@@ -3839,6 +3773,72 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
 					(reference "C304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 67.31 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7d6c23e-b714-46d9-b7b3-d51bad6db41f")
+		(property "Reference" "#PWR07"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 67.31 61.9069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1290411-ad16-4b28-b40f-c3b2b6983f70")
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8/5a0dd6dd-a708-4dff-86d4-f0f456a5825a"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "PC-FX CD Board Schematics")
-		(date "2024-07-21")
+		(date "2024-07-25")
 		(rev "0.1")
 		(company "Author: Regis Galland")
 		(comment 1 "Reversed engineered schematics of the PC-FX CD PCB")
@@ -23921,8 +23921,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND2"
-			(at 41.91 178.308 90)
+		(property "Value" "18MHz"
+			(at 48.26 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)

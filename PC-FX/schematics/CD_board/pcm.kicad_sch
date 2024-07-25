@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PC-FX CD Board Schematics")
-		(date "2024-07-21")
+		(date "2024-07-25")
 		(rev "0.1")
 		(company "Author: Regis Galland")
 		(comment 1 "Reversed engineered schematics of the PC-FX CD PCB")
