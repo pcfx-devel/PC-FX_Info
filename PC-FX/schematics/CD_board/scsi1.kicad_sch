@@ -3449,7 +3449,7 @@
 				(pin input line
 					(at -30.48 -22.86 0)
 					(length 5.08)
-					(name "?"
+					(name "SCSI_~{ACK}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3464,10 +3464,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -30.48 -25.4 0)
 					(length 5.08)
-					(name "?"
+					(name "SCSI_~{REQ}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3887,7 +3887,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 30.48 -46.99 180)
 					(length 5.08)
 					(name ""
@@ -3905,7 +3905,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 30.48 -44.45 180)
 					(length 5.08)
 					(name ""
@@ -3941,10 +3941,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 30.48 -39.37 180)
+				(pin input line
+					(at 30.48 -26.67 180)
 					(length 5.08)
-					(name ""
+					(name "SCSI_~{ATN}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4014,7 +4014,7 @@
 					)
 				)
 				(pin output line
-					(at 30.48 -36.83 180)
+					(at 30.48 -39.37 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -4050,7 +4050,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -34.29 180)
+					(at 30.48 -36.83 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -4068,7 +4068,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -31.75 180)
+					(at 30.48 -34.29 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -4104,7 +4104,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -29.21 180)
+					(at 30.48 -31.75 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -4481,10 +4481,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 30.48 -24.13 180)
 					(length 5.08)
-					(name ""
+					(name "SCSI_~{IO}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4499,10 +4499,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 30.48 -21.59 180)
 					(length 5.08)
-					(name ""
+					(name "SCSI_~{CD}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4517,10 +4517,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 30.48 -19.05 180)
 					(length 5.08)
-					(name ""
+					(name "SCSI_~{MSG}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4535,10 +4535,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 30.48 -16.51 180)
 					(length 5.08)
-					(name ""
+					(name "SCSI_~{BSY}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5346,7 +5346,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -26.67 180)
+					(at 30.48 -29.21 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -10081,7 +10081,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 207.01) (xy 359.41 207.01)
+			(xy 347.98 194.31) (xy 359.41 194.31)
 		)
 		(stroke
 			(width 0)
@@ -10228,6 +10228,16 @@
 			(type default)
 		)
 		(uuid "1e6b71bd-b4cd-4569-b4cd-5e9dcee1c475")
+	)
+	(wire
+		(pts
+			(xy 266.7 215.9) (xy 287.02 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef90ca3-d03c-4dd4-81a2-67120a9eb908")
 	)
 	(bus
 		(pts
@@ -11171,7 +11181,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 199.39) (xy 359.41 199.39)
+			(xy 347.98 201.93) (xy 359.41 201.93)
 		)
 		(stroke
 			(width 0)
@@ -11401,7 +11411,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 196.85) (xy 359.41 196.85)
+			(xy 347.98 199.39) (xy 359.41 199.39)
 		)
 		(stroke
 			(width 0)
@@ -12591,7 +12601,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 194.31) (xy 359.41 194.31)
+			(xy 347.98 196.85) (xy 359.41 196.85)
 		)
 		(stroke
 			(width 0)
@@ -14031,7 +14041,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 204.47) (xy 359.41 204.47)
+			(xy 347.98 207.01) (xy 359.41 207.01)
 		)
 		(stroke
 			(width 0)
@@ -14238,16 +14248,6 @@
 			(type default)
 		)
 		(uuid "c04d6e78-8f0e-40b6-9851-ba162a28872d")
-	)
-	(wire
-		(pts
-			(xy 266.7 215.9) (xy 287.02 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0803d5e-8aa7-4915-ab25-355b46e699d2")
 	)
 	(wire
 		(pts
@@ -14701,7 +14701,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 201.93) (xy 359.41 201.93)
+			(xy 347.98 204.47) (xy 359.41 204.47)
 		)
 		(stroke
 			(width 0)
@@ -15729,16 +15729,6 @@
 		)
 		(uuid "ffd507de-b10d-445e-abb8-511a89527ca5")
 	)
-	(text "SCSI_~{ACK} ?"
-		(exclude_from_sim no)
-		(at 378.206 207.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "35520d6e-68b0-4bac-8425-c1562e670977")
-	)
 	(text "SCSI\nGate Array 2"
 		(exclude_from_sim no)
 		(at 86.106 162.306 0)
@@ -15750,16 +15740,6 @@
 			)
 		)
 		(uuid "3842b6c6-4057-4a00-ad30-47bb6a068055")
-	)
-	(text "SCSI_~{IO} ?"
-		(exclude_from_sim no)
-		(at 377.952 192.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "440eb61b-84c6-4d4e-9996-82ec66b33c15")
 	)
 	(text "8KB RAM"
 		(exclude_from_sim no)
@@ -15773,16 +15753,6 @@
 		)
 		(uuid "51ca19fe-32fb-4318-96c2-3e0a6fbbe768")
 	)
-	(text "SCSI_~{CD} ?"
-		(exclude_from_sim no)
-		(at 377.952 189.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5494d654-709a-49d9-a1c6-7fddb7b35a58")
-	)
 	(text "32KB EEPROM"
 		(exclude_from_sim no)
 		(at 245.618 20.32 0)
@@ -15794,6 +15764,16 @@
 			)
 		)
 		(uuid "55d12502-c97c-4061-a1ec-b9f927f928c7")
+	)
+	(text "SRAM_CEN low when PF7-5 = \"110\""
+		(exclude_from_sim no)
+		(at 160.782 141.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66f010d8-8766-4269-a828-9dd6533ea131")
 	)
 	(text "SCSI\nGate Array 1"
 		(exclude_from_sim no)
@@ -15807,35 +15787,16 @@
 		)
 		(uuid "6fb3872c-c7c9-4cbd-8072-59ee6096738d")
 	)
-	(text "SCSI_~{REQ} ?"
+	(text "P21, P22 and P23 are PWM signals but only P23 is used\nto strobe the lid and the end switch. \nIt has a small duty cycle so perhaps it relies on the internal\ncapacitance of the analog input and acts as a top up mechanism\nto provide enough voltage to detect that the lid is closed. "
 		(exclude_from_sim no)
-		(at 378.206 204.724 0)
+		(at 341.884 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "7c821951-9201-42fd-8835-b775c53b76c5")
-	)
-	(text "SCSI_~{MSG} ?"
-		(exclude_from_sim no)
-		(at 377.952 186.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e174f9a-842e-4b5e-ae41-f2f2ed4a77e9")
-	)
-	(text "SCSI_~{BSY} ?"
-		(exclude_from_sim no)
-		(at 377.952 184.404 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ddd4c73-1664-494f-9d06-a0746587d84f")
+		(uuid "936f2f5e-10ec-4eea-8979-891fbed6d366")
 	)
 	(text "8KB RAM"
 		(exclude_from_sim no)
@@ -16004,7 +15965,7 @@
 		(uuid "0f51a050-473d-44f6-94f9-ab65daf963ad")
 	)
 	(label "IC403_P99"
-		(at 359.41 194.31 180)
+		(at 359.41 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16961,7 +16922,7 @@
 		(uuid "7f64d4b7-b210-471f-a6fa-5ec55ee29bfa")
 	)
 	(label "IC403_P98"
-		(at 359.41 196.85 180)
+		(at 359.41 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16983,7 +16944,7 @@
 		(uuid "864781d8-b3e5-4ef0-ae17-938c8d0abfc3")
 	)
 	(label "IC403_P74"
-		(at 359.41 199.39 180)
+		(at 359.41 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17181,7 +17142,7 @@
 		(uuid "9fd5f894-9ab5-4ee0-b3e1-5b70a96f1445")
 	)
 	(label "IC403_P75"
-		(at 359.41 201.93 180)
+		(at 359.41 204.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17985,7 +17946,7 @@
 	)
 	(hierarchical_label "CN401_P8"
 		(shape output)
-		(at 359.41 204.47 0)
+		(at 359.41 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18019,8 +17980,8 @@
 		)
 		(uuid "04dd1937-4102-454b-a845-b791543b04d8")
 	)
-	(hierarchical_label "CN401_P26"
-		(shape output)
+	(hierarchical_label "SCSI_~{ACK}"
+		(shape input)
 		(at 46.99 199.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -18091,7 +18052,7 @@
 		)
 		(uuid "105f4a7a-efb6-4f26-adcf-3878a1839c25")
 	)
-	(hierarchical_label "CN401_P23"
+	(hierarchical_label "SCSI_~{BSY}"
 		(shape output)
 		(at 359.41 184.15 0)
 		(fields_autoplaced yes)
@@ -18151,7 +18112,7 @@
 		)
 		(uuid "3be8d278-267c-46bc-b003-c614c803d528")
 	)
-	(hierarchical_label "CN401_P19"
+	(hierarchical_label "SCSI_~{CD}"
 		(shape output)
 		(at 359.41 189.23 0)
 		(fields_autoplaced yes)
@@ -18163,7 +18124,7 @@
 		)
 		(uuid "3f9883bb-b942-42f4-ab78-e1d48f8ee340")
 	)
-	(hierarchical_label "CN401_P18"
+	(hierarchical_label "SCSI_~{REQ}"
 		(shape output)
 		(at 46.99 201.93 180)
 		(fields_autoplaced yes)
@@ -18199,7 +18160,7 @@
 		)
 		(uuid "4c8db3ba-9c00-4654-82ea-3d8393cf4b99")
 	)
-	(hierarchical_label "CN401_P17"
+	(hierarchical_label "SCSI_~{IO}"
 		(shape output)
 		(at 359.41 191.77 0)
 		(fields_autoplaced yes)
@@ -18259,7 +18220,7 @@
 		)
 		(uuid "82786339-72d5-4826-b5fc-01b1dcdbd7bc")
 	)
-	(hierarchical_label "IC402_P23"
+	(hierarchical_label "SWITCH_STROBE"
 		(shape output)
 		(at 359.41 217.17 0)
 		(fields_autoplaced yes)
@@ -18355,9 +18316,9 @@
 		)
 		(uuid "c5c56683-c70f-4e48-b976-1b3f59507351")
 	)
-	(hierarchical_label "CN401_P27"
-		(shape output)
-		(at 359.41 207.01 0)
+	(hierarchical_label "SCSI_~{ATN}"
+		(shape input)
+		(at 359.41 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18391,7 +18352,7 @@
 		)
 		(uuid "ecb42dd5-2eee-46dd-933f-420c4a797da6")
 	)
-	(hierarchical_label "CN401_P20"
+	(hierarchical_label "SCSI_~{MSG}"
 		(shape output)
 		(at 359.41 186.69 0)
 		(fields_autoplaced yes)

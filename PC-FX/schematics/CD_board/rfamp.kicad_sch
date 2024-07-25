@@ -3978,9 +3978,9 @@
 		)
 		(uuid "ff300a30-a5de-4cdf-97b6-c32c1a41094f")
 	)
-	(text "VR102\nFE BIAS"
+	(text "VR102\nFOCUS\nOFFSET\nADJ."
 		(exclude_from_sim no)
-		(at 265.938 143.002 0)
+		(at 265.43 160.528 0)
 		(effects
 			(font
 				(size 5 5)
@@ -3991,9 +3991,9 @@
 		)
 		(uuid "0bd89377-b792-479b-be51-cad5e9544ee7")
 	)
-	(text "VR101\nTE BIAS?"
+	(text "VR101\nTRACKING\nOFFSET\nADJ."
 		(exclude_from_sim no)
-		(at 123.444 145.542 0)
+		(at 115.062 159.766 0)
 		(effects
 			(font
 				(size 5 5)

@@ -1565,12 +1565,6 @@
 		)
 	)
 	(junction
-		(at 124.46 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bc50c3c-ceef-4ba2-b55e-6505c3ea2450")
-	)
-	(junction
 		(at 337.82 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1581,6 +1575,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25382d36-38c5-4e54-b32f-ca3eab40f930")
+	)
+	(junction
+		(at 114.3 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba5ccd7-f607-49e0-81ce-680c597b9fe6")
 	)
 	(junction
 		(at 337.82 60.96)
@@ -1605,6 +1605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67472575-05d3-4ff4-95a7-e3339bc90264")
+	)
+	(junction
+		(at 124.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e598201-e37e-4530-b989-e2f457093913")
 	)
 	(junction
 		(at 337.82 91.44)
@@ -1653,12 +1659,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca7fac6a-8016-4c13-bad2-2159b9c641fc")
-	)
-	(junction
-		(at 114.3 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db6b1fe1-0283-4309-8dbe-e5d1b27d4eb2")
 	)
 	(junction
 		(at 335.28 106.68)
@@ -1772,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 167.64) (xy 139.7 167.64)
+			(xy 124.46 121.92) (xy 139.7 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 58.42) (xy 254 58.42)
+			(xy 275.59 55.88) (xy 254 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2169,16 +2169,6 @@
 			(type default)
 		)
 		(uuid "47bb4fda-6880-4f87-ae8c-b4d023d00b8d")
-	)
-	(wire
-		(pts
-			(xy 124.46 167.64) (xy 124.46 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48502a56-0edf-434b-8c9d-f3cfdc59adb3")
 	)
 	(wire
 		(pts
@@ -2462,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 233.68) (xy 114.3 152.4)
+			(xy 114.3 132.08) (xy 114.3 233.68)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 53.34) (xy 254 53.34)
+			(xy 275.59 50.8) (xy 254 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 55.88) (xy 254 55.88)
+			(xy 275.59 53.34) (xy 254 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2729,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "8aefe381-1a9a-4b45-b4db-04974e305af1")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 124.46 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b453b6c-0f33-4187-beef-e22fd7480ed9")
 	)
 	(wire
 		(pts
@@ -2832,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 152.4) (xy 139.7 152.4)
+			(xy 114.3 132.08) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 50.8) (xy 254 50.8)
+			(xy 275.59 35.56) (xy 254 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3289,16 +3289,6 @@
 			(type default)
 		)
 		(uuid "cc81aa2a-4ce3-4b11-9a75-298de1fe135e")
-	)
-	(wire
-		(pts
-			(xy 114.3 132.08) (xy 114.3 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf23e52-be54-4601-b9e9-dfde160b609c")
 	)
 	(wire
 		(pts
@@ -3380,16 +3370,6 @@
 		)
 		(uuid "d3ab12f4-aeec-45da-a149-36b646a2475a")
 	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 124.46 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d479e0f0-7b20-46bf-8234-8419a59641eb")
-	)
 	(bus
 		(pts
 			(xy 316.23 119.38) (xy 316.23 116.84)
@@ -3442,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 63.5) (xy 254 63.5)
+			(xy 275.59 60.96) (xy 254 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 60.96) (xy 254 60.96)
+			(xy 275.59 58.42) (xy 254 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 66.04) (xy 254 66.04)
+			(xy 275.59 63.5) (xy 254 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3602,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 68.58) (xy 254 68.58)
+			(xy 275.59 66.04) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3760,98 +3740,19 @@
 		)
 		(uuid "ff1bc4e0-a202-4c4d-8cb1-1dc129297def")
 	)
-	(text "SCSI_~{MSG} ?"
+	(text "CN401 comments:\nTo comply with SCSI specs, SCSI_~{BSY} and SCSI_~{SEL}\nshould be bidirectional. But is it the case?\n\nAll pins are pull low through a 4.7k resistor except P8\nwhich is neither pulled up/down.\n \nP8 is constanly low and it seems to be like a CD board\nready or present pin."
 		(exclude_from_sim no)
-		(at 310.896 86.614 0)
+		(at 351.282 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-		)
-		(uuid "54d9e6a1-d9c1-464c-bd39-497edc5838bb")
-	)
-	(text "Is SCSI_~{BSY} bidirectional? That would require another connection.\nLast connection could be Is SCSI_~{ATN}"
-		(exclude_from_sim no)
-		(at 384.556 98.806 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+			(justify left)
 		)
 		(uuid "6255cf69-2cde-4970-b785-ffaba64dd32f")
 	)
-	(text "SCSI_~{REQ} ?"
-		(exclude_from_sim no)
-		(at 310.896 55.626 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d55f145-f9bf-4f9e-9618-64d35aac540f")
-	)
-	(text "SCSI_~{IO} ?"
-		(exclude_from_sim no)
-		(at 311.404 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "85cae0fa-f671-48f7-a89f-f92618766291")
-	)
-	(text "SCSI_~{CD} ?"
-		(exclude_from_sim no)
-		(at 311.404 84.074 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87c6aee7-b83a-4161-8130-525e06f996ac")
-	)
-	(text "SCSI_~{ACK} ?"
-		(exclude_from_sim no)
-		(at 310.896 104.394 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a22d5307-ac53-4abd-8879-9df307ac18e9")
-	)
-	(text "SCSI_~{SEL} ?"
-		(exclude_from_sim no)
-		(at 310.134 95.758 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bbd902e7-10fb-4086-ac3c-df4b716707dd")
-	)
-	(text "SCSI_~{SEL} ?"
-		(exclude_from_sim no)
-		(at 44.45 75.438 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "beaa46a7-8427-47f3-992f-6dd8a3ce3cea")
-	)
-	(text "SCSI_~{BSY} ?"
-		(exclude_from_sim no)
-		(at 310.134 93.472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cab0a854-44db-46f3-ace2-82ec36cfdaf6")
-	)
-	(label "CN401_P18"
-		(at 275.59 55.88 180)
+	(label "SCSI_~{REQ}"
+		(at 275.59 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3883,8 +3784,8 @@
 		)
 		(uuid "1472fe54-aae5-4842-a0a1-a118800c70f4")
 	)
-	(label "CN401_P17"
-		(at 275.59 53.34 180)
+	(label "SCSI_~{IO}"
+		(at 275.59 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3916,8 +3817,8 @@
 		)
 		(uuid "229d1a63-22f1-4a72-807b-1de6f96ba71c")
 	)
-	(label "CN401_P19"
-		(at 275.59 58.42 180)
+	(label "SCSI_~{CD}"
+		(at 275.59 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3927,7 +3828,7 @@
 		)
 		(uuid "25aa5aff-f95f-4ff9-a18c-49f50a99579d")
 	)
-	(label "CN401_P19"
+	(label "SCSI_~{CD}"
 		(at 317.5 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3971,7 +3872,7 @@
 		)
 		(uuid "4b4476f7-d8fe-4e72-b0c5-9bca4dee92e1")
 	)
-	(label "CN401_P23"
+	(label "SCSI_~{BSY}"
 		(at 317.5 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3982,7 +3883,7 @@
 		)
 		(uuid "4d62f171-44d0-4133-9fe1-4a4621dc3d0d")
 	)
-	(label "CN401_P26"
+	(label "SCSI_~{ACK}"
 		(at 317.5 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4016,7 +3917,7 @@
 		(uuid "56b4ea44-4b5a-4d6b-9a25-10b0f447f7cd")
 	)
 	(label "CN401_P8"
-		(at 275.59 50.8 180)
+		(at 275.59 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4048,8 +3949,8 @@
 		)
 		(uuid "6846889a-f614-4f41-b060-960880b859e6")
 	)
-	(label "CN401_P20"
-		(at 275.59 60.96 180)
+	(label "SCSI_~{MSG}"
+		(at 275.59 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4059,7 +3960,7 @@
 		)
 		(uuid "71906756-b9e7-44fd-bc1f-b41363fabd0a")
 	)
-	(label "CN401_P24"
+	(label "SCSI_~{SEL}"
 		(at 317.5 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4070,8 +3971,8 @@
 		)
 		(uuid "7629dc33-a197-43c8-a656-3863726c8b04")
 	)
-	(label "CN401_P27"
-		(at 275.59 68.58 180)
+	(label "SCSI_~{ATN}"
+		(at 275.59 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4081,7 +3982,7 @@
 		)
 		(uuid "7839e0a6-3f47-444b-8b11-d7875be10735")
 	)
-	(label "CN401_P27"
+	(label "SCSI_~{ATN}"
 		(at 317.5 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4103,7 +4004,7 @@
 		)
 		(uuid "7f63cb5b-dee9-4ab7-affa-6e4e8cd1df85")
 	)
-	(label "CN401_P20"
+	(label "SCSI_~{MSG}"
 		(at 317.5 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4169,8 +4070,8 @@
 		)
 		(uuid "a3460694-34ec-4403-9aaa-33210c44f12d")
 	)
-	(label "CN401_P26"
-		(at 275.59 66.04 180)
+	(label "SCSI_~{ACK}"
+		(at 275.59 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4191,7 +4092,7 @@
 		)
 		(uuid "adb109d9-d698-426b-a907-fa2ec8720394")
 	)
-	(label "CN401_P17"
+	(label "SCSI_~{IO}"
 		(at 317.5 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4202,7 +4103,7 @@
 		)
 		(uuid "b8db2575-bbee-4d9c-89c0-9794b09b7dac")
 	)
-	(label "CN401_P18"
+	(label "SCSI_~{REQ}"
 		(at 317.5 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4268,7 +4169,7 @@
 		)
 		(uuid "eb96b54b-a43f-4cb9-a8df-e2decdaa128e")
 	)
-	(label "CN401_P24"
+	(label "SCSI_~{SEL}"
 		(at 50.8 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4290,8 +4191,8 @@
 		)
 		(uuid "ef66f1f0-0a34-405a-b5e7-3d830894267c")
 	)
-	(label "CN401_P23"
-		(at 275.59 63.5 180)
+	(label "SCSI_~{BSY}"
+		(at 275.59 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4360,6 +4261,134 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
 					(reference "#SYM17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 331.47 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0d9fab2c-c0d2-4066-b09a-14a307e9e22e")
+		(property "Reference" "#SYM33"
+			(at 331.47 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 331.724 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 331.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0e7e28bd-53c1-46c1-b696-6bbd07e69baa")
+		(property "Reference" "#SYM25"
+			(at 330.2 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 329.946 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM25")
 					(unit 1)
 				)
 			)
@@ -4559,6 +4588,70 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "2d633de4-0800-4048-8c82-8b0ae9f14b75")
+		(property "Reference" "#SYM29"
+			(at 330.2 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 330.454 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 330.2 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -4687,6 +4780,134 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "4fe06f1a-3bc3-4778-8702-740ceda5811a")
+		(property "Reference" "#SYM27"
+			(at 330.2 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 330.454 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "5dd4ecf8-a6e6-4384-9455-40e07d3bbadb")
+		(property "Reference" "#SYM30"
+			(at 330.2 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 330.454 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 330.2 66.04 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4744,6 +4965,70 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
 					(reference "#SYM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "64778b37-c3b6-454d-8707-107dccfb3c77")
+		(property "Reference" "#SYM24"
+			(at 330.2 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 329.946 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM24")
 					(unit 1)
 				)
 			)
@@ -5009,6 +5294,70 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "7cd5b444-fadf-439a-a4de-9c258e41eb8b")
+		(property "Reference" "#SYM28"
+			(at 330.2 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 330.454 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 330.2 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5265,6 +5614,70 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 331.47 96.52 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "96fd9653-b3a4-44c3-89e0-517474d5953c")
+		(property "Reference" "#SYM31"
+			(at 331.47 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 331.724 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 331.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 331.47 111.76 0)
 		(mirror x)
 		(unit 1)
@@ -5456,6 +5869,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "a56f4a10-ce85-4426-8565-96decf643675")
+		(property "Reference" "#SYM26"
+			(at 330.2 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 329.946 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 335.28 33.02 0)
 		(mirror y)
@@ -5517,6 +5994,70 @@
 			(project "CD_board"
 				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 330.2 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b990e9ec-67cc-465f-acf9-c67c607ba3e2")
+		(property "Reference" "#SYM32"
+			(at 330.2 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 329.946 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 330.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CD_board"
+				(path "/28d2c364-a4dd-4270-9fde-bb67593159d8"
+					(reference "#SYM32")
 					(unit 1)
 				)
 			)
@@ -6516,7 +7057,7 @@
 			)
 			(uuid "e9b9db92-cfc6-49b0-b12e-cfffe023cdca")
 		)
-		(pin "IC402_P23" input
+		(pin "SWITCH_STROBE" input
 			(at 101.6 48.26 0)
 			(effects
 				(font
@@ -6576,7 +7117,7 @@
 			)
 			(uuid "742a67f0-40b9-468b-a0e0-3f53c1c51380")
 		)
-		(pin "CN401_P24" input
+		(pin "SCSI_~{SEL}" input
 			(at 63.5 76.2 180)
 			(effects
 				(font
@@ -6606,26 +7147,6 @@
 			)
 			(uuid "fd1fd1c2-a3fc-48e8-bba1-a03958a6520a")
 		)
-		(pin "ENDSW_A" output
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f245979a-b7ff-401a-9b73-55355bafcaeb")
-		)
-		(pin "ENDSW_B" output
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1c702ea7-6285-46cf-825a-6d53c4471f51")
-		)
 		(pin "IC401_PB4" output
 			(at 101.6 124.46 0)
 			(effects
@@ -6645,6 +7166,26 @@
 				(justify right)
 			)
 			(uuid "dc50a0f6-090d-4644-b723-70e5bd966d24")
+		)
+		(pin "ENDSW_B" output
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb302c0a-8eb9-413d-8fc1-9f67220bb289")
+		)
+		(pin "ENDSW_A" input
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccac3610-9c0b-4d9e-8c37-0cdbc5e15f11")
 		)
 		(instances
 			(project "CD_board"
@@ -6882,7 +7423,7 @@
 			)
 			(uuid "bfe1fd32-cd4e-43e1-8d3c-7f7cf08898dc")
 		)
-		(pin "IC402_P23" output
+		(pin "SWITCH_STROBE" output
 			(at 215.9 48.26 180)
 			(effects
 				(font
@@ -6892,18 +7433,8 @@
 			)
 			(uuid "dcd338b5-d482-4d77-a8d6-bc076ceb10a1")
 		)
-		(pin "CN401_P27" output
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3b86cf04-a81c-4f36-9f71-1b3756a7d246")
-		)
 		(pin "CN401_P8" output
-			(at 254 50.8 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,8 +7443,8 @@
 			)
 			(uuid "002fe42d-79bb-45ab-9603-db8825984e33")
 		)
-		(pin "CN401_P19" output
-			(at 254 58.42 0)
+		(pin "SCSI_~{CD}" output
+			(at 254 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,8 +7453,8 @@
 			)
 			(uuid "724e491b-2fee-45d6-bec2-6df2a05770d4")
 		)
-		(pin "CN401_P20" output
-			(at 254 60.96 0)
+		(pin "SCSI_~{MSG}" output
+			(at 254 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,8 +7463,8 @@
 			)
 			(uuid "4e57ee4c-1c8b-41c4-a740-e4407cfd9fa6")
 		)
-		(pin "CN401_P17" output
-			(at 254 53.34 0)
+		(pin "SCSI_~{IO}" output
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,8 +7473,8 @@
 			)
 			(uuid "b6e15aa4-755d-4bd5-8e61-d9eb1425fcbe")
 		)
-		(pin "CN401_P23" output
-			(at 254 63.5 0)
+		(pin "SCSI_~{BSY}" output
+			(at 254 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,18 +7553,8 @@
 			)
 			(uuid "be548782-1a59-436e-83ab-54398d0d5193")
 		)
-		(pin "CN401_P26" output
-			(at 254 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3ef8bfc1-866f-4042-a3e6-2711cf2c43d5")
-		)
-		(pin "CN401_P18" output
-			(at 254 55.88 0)
+		(pin "SCSI_~{REQ}" output
+			(at 254 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,6 +7622,26 @@
 				(justify left)
 			)
 			(uuid "fc695f27-c9b7-4c6d-8eb1-da937df36d58")
+		)
+		(pin "SCSI_~{ACK}" input
+			(at 254 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4392d13-43a3-4fac-bdad-3a9910a74bd9")
+		)
+		(pin "SCSI_~{ATN}" output
+			(at 254 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4bbef4bb-0629-4905-90b9-65b0f0f4e32c")
 		)
 		(instances
 			(project "CD_board"
@@ -7239,16 +7780,6 @@
 				(justify left)
 			)
 			(uuid "c4bb6668-1c5f-4327-92a4-54628b0c3ebe")
-		)
-		(pin "ENDSW_A" input
-			(at 139.7 231.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "207ac73c-b68c-4060-ae65-9e28ade25592")
 		)
 		(pin "IC401_PB4" input
 			(at 139.7 228.6 180)
@@ -7399,6 +7930,16 @@
 				(justify right)
 			)
 			(uuid "3ae9bf8c-4e61-4ac4-955e-fe5f1727275f")
+		)
+		(pin "ENDSW_A" output
+			(at 139.7 231.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97af7da5-c430-4dd5-899b-eba33e0f5d5b")
 		)
 		(instances
 			(project "CD_board"
@@ -7629,7 +8170,7 @@
 			(uuid "5327e1f8-9456-4c26-b4d8-4c29c9cda9a2")
 		)
 		(pin "~{LDON}" input
-			(at 139.7 152.4 180)
+			(at 139.7 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,7 +8250,7 @@
 			(uuid "26a7c6a8-32f9-4f3c-8e6c-6217f9d87301")
 		)
 		(pin "FOK" input
-			(at 139.7 167.64 180)
+			(at 139.7 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)

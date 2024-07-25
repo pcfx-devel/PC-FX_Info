@@ -11346,7 +11346,7 @@
 		(uuid "40d6d7c6-9f40-4fb5-9de9-c6c451e6f7fd")
 	)
 	(hierarchical_label "ENDSW_A"
-		(shape input)
+		(shape output)
 		(at 210.82 229.87 180)
 		(fields_autoplaced yes)
 		(effects
